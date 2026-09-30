@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.04552v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "This Distinction Also",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Common Theoretical Mistake",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This distinction also prevents a common theoretical mistake.",
+      "paper_id": "2608.04552v1",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04552v1_c3"
+    },
+    {
+      "subject": "Independent Repeated Calls May",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Observation Noise",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Duplicate saturation distinguishes deterministic\ninformation from variance reduction: independent repeated calls may reduce observation noise, but\nliteral copies do not alter the normalized Gram operator.",
+      "paper_id": "2608.04552v1",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04552v1_c9"
+    },
+    {
+      "subject": "Recovery",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Parsed Outputs Only",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Recovery uses parsed outputs only,\nwith no logits or model states.",
+      "paper_id": "2608.04552v1",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04552v1_c9"
+    }
+  ]
+}

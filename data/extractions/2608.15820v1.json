@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.15820v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Present Work",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Our Earlier Wavephasenet Framework",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "The present work extends our earlier WavePhaseNet framework, which constructed semantic conceptual\nhierarchies by discrete Fourier analysis of transformer representations (Kasubuchi and Fukiya 2026).",
+      "paper_id": "2608.15820v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.15820v1_c2"
+    },
+    {
+      "subject": "C Uncertainty\nAlone May Fail To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Fluent But Consistently Wrong Answer",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "In particular, semantic uncertainty\nalone may fail to detect a fluent but consistently wrong answer.",
+      "paper_id": "2608.15820v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15820v1_c14"
+    },
+    {
+      "subject": "This Proposition Does Not",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Which Point On The Reference Path Is Approached",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This proposition does not identify which point on the reference path is approached, preserve the temporal\nordering of the trajectory, or guarantee the truth of generated claims.",
+      "paper_id": "2608.15820v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15820v1_c15"
+    },
+    {
+      "subject": "In The Wavelength Definition To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Divergence Near Zero Frequency",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "15.3 Numerical Stability\n\n• Include 𝜀𝜔> 0 in the wavelength definition to prevent divergence near zero frequency.",
+      "paper_id": "2608.15820v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15820v1_c17"
+    },
+    {
+      "subject": "Then Geodesic Distance",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "To Euclidean Distance",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Minimal Reproducible Model\n\nIn the first implementation stage, set\n\nℳ= ℝ𝑑,\n𝑔= 𝐼,\n∇= 𝑑,\n𝐹∇= 0,\n𝑐𝑠= 1\n\nThen geodesic distance reduces to Euclidean distance, parallel transport is the identity, and covariant phase\ncoherence becomes the ordinary complex inner product.",
+      "paper_id": "2608.15820v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15820v1_c24"
+    },
+    {
+      "subject": "This Makes It Easier To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Which Component Contributes To Performance",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This makes it easier to identify which component contributes to performance, instability,\nor computational cost.",
+      "paper_id": "2608.15820v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15820v1_c25"
+    }
+  ]
+}

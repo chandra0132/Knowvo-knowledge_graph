@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.12746v3",
+  "total_triplets": 2,
+  "triplets": [
+    {
+      "subject": "Log 100 To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Numerical Divergence",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The temperature τ is learnable,\ninitialised at 0.07 following CLIP practice, and clamped at\nlog τ −1 ≤log 100 to prevent numerical divergence.",
+      "paper_id": "2608.12746v3",
+      "section": "III. METHOD",
+      "chunk_id": "2608.12746v3_c9"
+    },
+    {
+      "subject": "Coco Object Semantic Domain And",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Two Benchmarks",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "In-domain\nevaluation stays inside the COCO object semantic domain and\nuses two benchmarks.",
+      "paper_id": "2608.12746v3",
+      "section": "Method",
+      "chunk_id": "2608.12746v3_c13"
+    }
+  ]
+}

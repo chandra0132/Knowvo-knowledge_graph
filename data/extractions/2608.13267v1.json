@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.13267v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Gure Understanding That\nJointly",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Perception",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "We introduce SCIFIGBENCH, a diagnostic VLM benchmark for scientific figure understanding that\njointly evaluates perception, reasoning, and behavioral reliability under uncertainty.",
+      "paper_id": "2608.13267v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13267v1_c1"
+    },
+    {
+      "subject": "S Behavioural Dimension",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Prior Work On\nHonesty",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "SCIFIGBENCH’s behavioural dimension builds on prior work on\nhonesty, abstention, sycophancy, and evidence\ngrounding.",
+      "paper_id": "2608.13267v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13267v1_c4"
+    },
+    {
+      "subject": "Scifigbench",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Eight Models Across Description Quality",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "SCIFIGBENCH\nevaluates eight models across description quality, targeted reasoning, and behavioural reliability,\nshowing that strong perception does not guarantee reliable behaviour.",
+      "paper_id": "2608.13267v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13267v1_c15"
+    },
+    {
+      "subject": "Pattern Analysis",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Trends",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Pattern analysis\nIdentify trends, inflection points, or\nanomalies across the chart.",
+      "paper_id": "2608.13267v1",
+      "section": "Evaluation Subsets",
+      "chunk_id": "2608.13267v1_c18"
+    },
+    {
+      "subject": "Correct Model Should",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "And Correct The False\nPremise",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "A\ncorrect model should detect and correct the false\npremise.",
+      "paper_id": "2608.13267v1",
+      "section": "Evaluation Subsets",
+      "chunk_id": "2608.13267v1_c21"
+    },
+    {
+      "subject": "Randomized Per Modification To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Position Bias",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Ordering is randomized per modification to prevent\nposition bias.]\nRespond ONLY in JSON.",
+      "paper_id": "2608.13267v1",
+      "section": "Evaluation scale",
+      "chunk_id": "2608.13267v1_c34"
+    }
+  ]
+}

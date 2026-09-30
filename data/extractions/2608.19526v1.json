@@ -1,0 +1,19 @@
+{
+  "paper_id": "2608.19526v1",
+  "total_triplets": 1,
+  "triplets": [
+    {
+      "subject": "Ructured-To-Text Transformation",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Arithmetic Hallucination",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Structured-to-text transformation prevents arithmetic hallucination.",
+      "paper_id": "2608.19526v1",
+      "section": "Evaluation criteria definitions:",
+      "chunk_id": "2608.19526v1_c14"
+    }
+  ]
+}

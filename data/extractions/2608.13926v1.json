@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.13926v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "Architectural Pattern",
+      "subject_type": "Method",
+      "relation": "PROPOSES",
+      "candidate_relation": null,
+      "object": "Such Systems",
+      "object_type": "Task",
+      "confidence": 0.88,
+      "evidence_span": "We propose an architectural pattern for such systems, a trusted kernel with a\ngenerative shell, resting on one invariant: a component that can fabricate may\ninfluence which question the system answers, never which value it returns.",
+      "paper_id": "2608.13926v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13926v1_c1"
+    },
+    {
+      "subject": "And The Failure It",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Is Worse There\nThan Here",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "That version is the one that matters for tool-using agents, and the failure it prevents is worse there\nthan here, since a wrong figure can be contradicted later and an executed action has already happened.",
+      "paper_id": "2608.13926v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13926v1_c6"
+    },
+    {
+      "subject": "Two Families Of Technique",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "System From Answering Wrongly",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Two families of technique prevent a system from answering wrongly, and they are worth naming,\nbecause this report belongs squarely to the second while the literature has mostly developed the first.",
+      "paper_id": "2608.13926v1",
+      "section": "Abstract",
+      "chunk_id": "2608.13926v1_c14"
+    }
+  ]
+}

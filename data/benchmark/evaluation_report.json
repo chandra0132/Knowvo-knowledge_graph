@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-09-26T16:39:24.729144+00:00",
+  "evaluation_metrics": {
+    "extraction": {
+      "precision": 1.0,
+      "recall": 0.2308,
+      "f1": 0.375,
+      "tp": 3,
+      "fp": 0,
+      "fn": 10,
+      "total_extracted": 3,
+      "total_ground_truth": 13
+    },
+    "entity_linking": {
+      "accuracy": 1.0,
+      "total": 25,
+      "correct": 25
+    },
+    "faithfulness": {
+      "average_answer_faithfulness": 0.3615
+    },
+    "citation_correctness": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "latency": {
+      "mean_latency_sec": 1.3308,
+      "p50_latency_sec": 0.0292,
+      "p95_latency_sec": 6.4251
+    }
+  },
+  "qa_evaluation_summary": {
+    "total_questions": 5,
+    "results": [
+      {
+        "id": "qa_01",
+        "question": "How do recent methods mitigate LLM hallucination in QA or RAG tasks?",
+        "category": "Mitigation",
+        "answer": "Recent methods mitigate LLM hallucinations primarily through active retrieval-augmented generation (RAG), multi-scale output verification, and real-time consistency checking [2608.00017v1, 2608.00032v1]. Rather than generating text unconstrained, these frameworks continuously cross-verify intermediate reasoning chains against retrieved knowledge chunks, filtering out ungrounded assertions before final output synthesis.",
+        "predicted_citations": [
+          "2608.00017v1",
+          "2608.00032v1",
+          "2608.00047v1"
+        ],
+        "expected_citations": [
+          "2608.14210v1",
+          "2608.15804v1",
+          "2608.09779v1"
+        ],
+        "faithfulness": 0.4302,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "latency_sec": 6.4251
+      },
+      {
+        "id": "qa_02",
+        "question": "Which models build on or extend the Transformer architecture?",
+        "category": "Architecture",
+        "answer": "Models extending the Transformer architecture incorporate topological trajectory tracking across latent layers, multi-scale attention modules, and structured memory layers [2608.00017v1, 2608.00032v1]. These enhancements preserve geometric representation consistency across deep layers to improve factual reasoning stability.",
+        "predicted_citations": [
+          "2608.00017v1",
+          "2608.00032v1",
+          "2608.00047v1"
+        ],
+        "expected_citations": [
+          "2608.08024v1",
+          "2608.11847v1"
+        ],
+        "faithfulness": 0.4103,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "latency_sec": 0.0292
+      },
+      {
+        "id": "qa_03",
+        "question": "What datasets or benchmarks are used to evaluate factuality and hallucination?",
+        "category": "Evaluation",
+        "answer": "Factuality and hallucination in LLMs are evaluated using established benchmarks such as BIRD-Dev, Spider-Test, GDPR, and CIVIL legal QA datasets [2608.00019v1, 2608.00034v1]. These benchmarks evaluate models against ground-truth schemas and factual constraints to measure hallucination rates and answer consistency.",
+        "predicted_citations": [
+          "2608.00019v1",
+          "2608.00034v1",
+          "2608.00049v1"
+        ],
+        "expected_citations": [
+          "2608.15804v1",
+          "2608.04514v2",
+          "2608.14210v1"
+        ],
+        "faithfulness": 0.3629,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "latency_sec": 0.0151
+      },
+      {
+        "id": "qa_04",
+        "question": "How does CoAL-RAG or DexterSQL improve baseline retrieval/Text-to-SQL performance?",
+        "category": "Performance",
+        "answer": "DexterSQL enhances Text-to-SQL performance by combining training-free schema linking with multi-candidate schema filtering [2608.00017v1]. This approach accurately connects natural language queries to relevant database tables and columns, delivering significant accuracy gains on complex benchmarks such as BIRD-Dev and Spider compared to standard prompting baselines.",
+        "predicted_citations": [
+          "2608.00017v1",
+          "2608.00032v1",
+          "2608.00047v1"
+        ],
+        "expected_citations": [
+          "2608.11889v1"
+        ],
+        "faithfulness": 0.2906,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "latency_sec": 0.0264
+      },
+      {
+        "id": "qa_05",
+        "question": "What are the main causes or categories of hallucinations identified in the corpus?",
+        "category": "Categorization",
+        "answer": "The primary causes of LLM hallucinations identified in the corpus include noisy or ungrounded retrieval context, semantic representation drift across deep transformer layers, and inadequate schema linking during decoding [2608.00017v1, 2608.00032v1].",
+        "predicted_citations": [
+          "2608.00017v1",
+          "2608.00032v1",
+          "2608.00047v1"
+        ],
+        "expected_citations": [
+          "2608.14210v1",
+          "2608.15804v1"
+        ],
+        "faithfulness": 0.3133,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "latency_sec": 0.158
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "2608.10008v2",
+  "total_triplets": 1,
+  "triplets": [
+    {
+      "subject": "Ece",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Numerically\nTo The Absolute Mean Gap",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "One caveat: where confidence\nconcentrates in a few bins of one sign, ECE reduces numerically\nto the absolute mean gap, as it does in 10 of the twelve cells.",
+      "paper_id": "2608.10008v2",
+      "section": "Abstract",
+      "chunk_id": "2608.10008v2_c12"
+    }
+  ]
+}

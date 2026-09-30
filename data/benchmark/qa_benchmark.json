@@ -1,0 +1,202 @@
+[
+  {
+    "id": "qa_01",
+    "question": "How do recent methods mitigate LLM hallucination in QA or RAG tasks?",
+    "category": "Mitigation",
+    "expected_answer_keywords": ["mitigate", "retrieval", "hallucination", "verification", "rag"],
+    "expected_paper_citations": ["2608.14210v1", "2608.15804v1", "2608.09779v1"],
+    "expected_evidence_keywords": ["hallucination", "rag", "kgcare"]
+  },
+  {
+    "id": "qa_02",
+    "question": "Which models build on or extend the Transformer architecture?",
+    "category": "Architecture",
+    "expected_answer_keywords": ["transformer", "architecture", "attention", "model"],
+    "expected_paper_citations": ["2608.08024v1", "2608.11847v1"],
+    "expected_evidence_keywords": ["transformer", "model", "builds_on"]
+  },
+  {
+    "id": "qa_03",
+    "question": "What datasets or benchmarks are used to evaluate factuality and hallucination?",
+    "category": "Evaluation",
+    "expected_answer_keywords": ["benchmark", "dataset", "factuality", "evaluation", "metrics"],
+    "expected_paper_citations": ["2608.15804v1", "2608.04514v2", "2608.14210v1"],
+    "expected_evidence_keywords": ["ragtruth", "precision", "recall", "f1"]
+  },
+  {
+    "id": "qa_04",
+    "question": "How does CoAL-RAG or DexterSQL improve baseline retrieval/Text-to-SQL performance?",
+    "category": "Performance",
+    "expected_answer_keywords": ["dextersql", "coal-rag", "improve", "accuracy", "sql"],
+    "expected_paper_citations": ["2608.11889v1"],
+    "expected_evidence_keywords": ["dextersql", "sql selection accuracy", "improves"]
+  },
+  {
+    "id": "qa_05",
+    "question": "What are the main causes or categories of hallucinations identified in the corpus?",
+    "category": "Categorization",
+    "expected_answer_keywords": ["hallucination", "categories", "factual", "faithfulness", "context"],
+    "expected_paper_citations": ["2608.14210v1", "2608.15804v1"],
+    "expected_evidence_keywords": ["hallucinate", "rag systems", "legal"]
+  },
+  {
+    "id": "qa_06",
+    "question": "How does KGCare utilize multi-stage reasoning for clinical knowledge graphs?",
+    "category": "Clinical KG",
+    "expected_answer_keywords": ["kgcare", "multi-stage", "clinical", "knowledge graph"],
+    "expected_paper_citations": ["2608.09779v1"],
+    "expected_evidence_keywords": ["kgcare", "multi-stage", "clinical"]
+  },
+  {
+    "id": "qa_07",
+    "question": "What role does Lookback play in improving model scoring and reasoning?",
+    "category": "Reasoning",
+    "expected_answer_keywords": ["lookback", "score", "improves", "reasoning"],
+    "expected_paper_citations": ["2608.11847v1"],
+    "expected_evidence_keywords": ["lookback", "improves", "score"]
+  },
+  {
+    "id": "qa_08",
+    "question": "How does DexterSQL disambiguate columns when generating executable SQL queries?",
+    "category": "Text-to-SQL",
+    "expected_answer_keywords": ["dextersql", "disambiguate", "columns", "tables", "sql"],
+    "expected_paper_citations": ["2608.11889v1"],
+    "expected_evidence_keywords": ["disambiguate columns", "correct tables", "dextersql"]
+  },
+  {
+    "id": "qa_09",
+    "question": "What evaluation metrics are official for RAGTruth in hallucination detection?",
+    "category": "Evaluation",
+    "expected_answer_keywords": ["ragtruth", "precision", "recall", "f1", "metrics"],
+    "expected_paper_citations": ["2608.15804v1"],
+    "expected_evidence_keywords": ["ragtruth", "precision", "recall", "f1"]
+  },
+  {
+    "id": "qa_10",
+    "question": "What are the challenges of hallucination in legal retrieval-augmented generation systems?",
+    "category": "Domain Specific",
+    "expected_answer_keywords": ["legal", "rag", "hallucination", "retrieval"],
+    "expected_paper_citations": ["2608.14210v1"],
+    "expected_evidence_keywords": ["legal rag", "hallucinate", "systems"]
+  },
+  {
+    "id": "qa_11",
+    "question": "How does belief-state reasoning support dynamic intervention in LLMs?",
+    "category": "Reasoning",
+    "expected_answer_keywords": ["belief-state", "reasoning", "dynamic", "intervention"],
+    "expected_paper_citations": ["2608.12036v2"],
+    "expected_evidence_keywords": ["belief-state", "dynamic intervention"]
+  },
+  {
+    "id": "qa_12",
+    "question": "What multimodal clinical benchmarks are introduced in RespClinBench?",
+    "category": "Clinical",
+    "expected_answer_keywords": ["respclinbench", "clinical", "respiratory", "benchmark"],
+    "expected_paper_citations": ["2608.04514v2"],
+    "expected_evidence_keywords": ["respclinbench", "multimodal", "clinical"]
+  },
+  {
+    "id": "qa_13",
+    "question": "How does fine-tuning on domain-specific datasets reduce hallucination rates?",
+    "category": "Training",
+    "expected_answer_keywords": ["fine-tuning", "domain", "reduce", "hallucination", "accuracy"],
+    "expected_paper_citations": ["2608.14210v1", "2608.11889v1"],
+    "expected_evidence_keywords": ["training", "fine-tuned", "improve"]
+  },
+  {
+    "id": "qa_14",
+    "question": "What methods are compared with standard RAG baselines for answer faithfulness?",
+    "category": "Comparative",
+    "expected_answer_keywords": ["compared_with", "standard rag", "faithfulness", "baseline"],
+    "expected_paper_citations": ["2608.14210v1", "2608.15804v1"],
+    "expected_evidence_keywords": ["standard rag", "baseline", "compared_with"]
+  },
+  {
+    "id": "qa_15",
+    "question": "How are external knowledge graphs integrated to verify LLM generated outputs?",
+    "category": "Verification",
+    "expected_answer_keywords": ["knowledge graph", "verify", "external", "triplet", "factuality"],
+    "expected_paper_citations": ["2608.09779v1", "2608.15804v1"],
+    "expected_evidence_keywords": ["kgcare", "knowledge graph", "evidence"]
+  },
+  {
+    "id": "qa_16",
+    "question": "What is the impact of schema linking in Text-to-SQL tasks?",
+    "category": "Text-to-SQL",
+    "expected_answer_keywords": ["schema linking", "tables", "columns", "sql", "accuracy"],
+    "expected_paper_citations": ["2608.11889v1"],
+    "expected_evidence_keywords": ["tables and columns", "disambiguate", "sql"]
+  },
+  {
+    "id": "qa_17",
+    "question": "How is character-level F1 used in evaluating hallucination benchmarks?",
+    "category": "Metrics",
+    "expected_answer_keywords": ["character-level", "f1", "precision", "ragtruth"],
+    "expected_paper_citations": ["2608.15804v1"],
+    "expected_evidence_keywords": ["character-level", "f1 score", "ragtruth"]
+  },
+  {
+    "id": "qa_18",
+    "question": "How does prompt engineering guide LLM review in SQL selection?",
+    "category": "Prompting",
+    "expected_answer_keywords": ["llm review", "sql selection", "guidance", "prompt"],
+    "expected_paper_citations": ["2608.11889v1"],
+    "expected_evidence_keywords": ["llm review", "sql selection accuracy", "guidance"]
+  },
+  {
+    "id": "qa_19",
+    "question": "What techniques improve retrieval precision in legal question answering?",
+    "category": "Legal QA",
+    "expected_answer_keywords": ["legal", "retrieval", "precision", "rag", "hallucination"],
+    "expected_paper_citations": ["2608.14210v1"],
+    "expected_evidence_keywords": ["legal rag", "hallucinate", "retrieval"]
+  },
+  {
+    "id": "qa_20",
+    "question": "What is the benefit of multi-stage clinical decision making systems?",
+    "category": "Clinical",
+    "expected_answer_keywords": ["multi-stage", "clinical", "decision", "kgcare"],
+    "expected_paper_citations": ["2608.09779v1", "2608.04514v2"],
+    "expected_evidence_keywords": ["multi-stage", "clinical", "decision-making"]
+  },
+  {
+    "id": "qa_21",
+    "question": "How does structurally similar example retrieval assist LLM generation?",
+    "category": "Retrieval",
+    "expected_answer_keywords": ["structurally similar", "training examples", "generation", "retrieval"],
+    "expected_paper_citations": ["2608.11889v1"],
+    "expected_evidence_keywords": ["structurally similar", "training examples"]
+  },
+  {
+    "id": "qa_22",
+    "question": "What datasets evaluate longitudinal disease management in specialized care?",
+    "category": "Datasets",
+    "expected_answer_keywords": ["respclinbench", "longitudinal", "disease", "respiratory"],
+    "expected_paper_citations": ["2608.04514v2"],
+    "expected_evidence_keywords": ["respclinbench", "longitudinal disease"]
+  },
+  {
+    "id": "qa_23",
+    "question": "How do recent methods mitigate hallucination during reasoning steps?",
+    "category": "Reasoning",
+    "expected_answer_keywords": ["mitigate", "hallucination", "reasoning", "intervention"],
+    "expected_paper_citations": ["2608.12036v2", "2608.11847v1"],
+    "expected_evidence_keywords": ["belief-state", "lookback", "intervention"]
+  },
+  {
+    "id": "qa_24",
+    "question": "What is the role of entity resolution in knowledge graph construction?",
+    "category": "KG Construction",
+    "expected_answer_keywords": ["entity resolution", "canonical", "alias", "deduplication", "merge"],
+    "expected_paper_citations": ["2608.09779v1", "2608.08024v1"],
+    "expected_evidence_keywords": ["entity", "knowledge graph"]
+  },
+  {
+    "id": "qa_25",
+    "question": "How do hybrid GraphRAG systems combine vector search with graph traversal?",
+    "category": "GraphRAG",
+    "expected_answer_keywords": ["hybrid", "graphrag", "vector", "graph traversal", "fusion", "evidence"],
+    "expected_paper_citations": ["2608.14210v1", "2608.15804v1", "2608.11889v1"],
+    "expected_evidence_keywords": ["rag", "graph", "vector", "evidence"]
+  }
+]

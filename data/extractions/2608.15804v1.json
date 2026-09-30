@@ -1,0 +1,97 @@
+{
+  "paper_id": "2608.15804v1",
+  "total_triplets": 7,
+  "triplets": [
+    {
+      "subject": "Detects Hallucinated Spans\nAnd",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Meaningful Input-Side Evidence",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Experiments show that the proposed\nmethod effectively detects hallucinated spans\nand identifies meaningful input-side evidence.",
+      "paper_id": "2608.15804v1",
+      "section": "Abstract",
+      "chunk_id": "2608.15804v1_c1"
+    },
+    {
+      "subject": "Our Method",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Lightweight Encoder Model",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Unlike recent approaches that\nrely on large decoder-based LLMs for hallucination\ndetection (Su et al., 2025; Niu et al., 2024; Mishra\net al., 2024), our method employs a lightweight encoder model, making inference considerably more\nefficient.",
+      "paper_id": "2608.15804v1",
+      "section": "Abstract",
+      "chunk_id": "2608.15804v1_c3"
+    },
+    {
+      "subject": "Word Alignment\n\nWord Alignment",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Correspondences Be-\n\nTween Two Sentences",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "2.2\nMonolingual Word Alignment\n\nWord alignment identifies correspondences be-\n\ntween two sentences, and is therefore closely related to the alignment component of our task.",
+      "paper_id": "2608.15804v1",
+      "section": "Experiments demonstrate that the proposed",
+      "chunk_id": "2608.15804v1_c4"
+    },
+    {
+      "subject": "And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Finest Possible\nSpans",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "When a sentence\ncontains multiple verbs, we merge the SRL results\nfor all predicates, and identify the finest possible\nspans.",
+      "paper_id": "2608.15804v1",
+      "section": "Experiments demonstrate that the proposed",
+      "chunk_id": "2608.15804v1_c5"
+    },
+    {
+      "subject": "Ility Of The Proposed Method To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Hallucinated Spans",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Automatic Evaluation\n\nWe first conduct an automatic evaluation to investi-\n\ngate the capability of the proposed method to detect\nhallucinated spans.",
+      "paper_id": "2608.15804v1",
+      "section": "Method",
+      "chunk_id": "2608.15804v1_c9"
+    },
+    {
+      "subject": "He Proposed Method Struggles To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Hallucinations Of This Category",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Although the occurrence of conflict hallucination is\nrare, the proposed method struggles to detect hallucinations of this category, i.e., the majority of\ncases are scored 0.",
+      "paper_id": "2608.15804v1",
+      "section": "Method",
+      "chunk_id": "2608.15804v1_c12"
+    },
+    {
+      "subject": "Proposed Method Effectively",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Baseless Hallucinations",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Although the\nproposed method effectively detects baseless hallucinations, improving the detection of conflict hallu-",
+      "paper_id": "2608.15804v1",
+      "section": "method to detect each hallucination type.2 Our",
+      "chunk_id": "2608.15804v1_c15"
+    }
+  ]
+}

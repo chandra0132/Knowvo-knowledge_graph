@@ -1,0 +1,71 @@
+{
+  "paper_id": "2608.18816v1",
+  "total_triplets": 5,
+  "triplets": [
+    {
+      "subject": "Trategies Have Been Proposed To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinations In Llms",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Several strategies have been proposed to mitigate hallucinations in LLMs.",
+      "paper_id": "2608.18816v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.18816v1_c7"
+    },
+    {
+      "subject": "Require Specific Techniques To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinating Content",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Specific causes can also require specific techniques to mitigate hallucinating content, for example, by\n\nintegrating a language understanding model for data refinement to conduct self-training to iteratively recover\n\ndata pairs with identical or equivalent semantics (Nie et al., 2019, p.",
+      "paper_id": "2608.18816v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.18816v1_c8"
+    },
+    {
+      "subject": "As These Strategies Aim To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinations",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "As these strategies aim to reduce hallucinations, they also draw attention to\n\nthe limits of AI’s capacity for self-generated knowledge and raise the possibility that true human-like\n\nintelligence may require more than just fine-tuning responses to align with data – it may demand an internal\n\ncomprehension that current models lack.",
+      "paper_id": "2608.18816v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.18816v1_c9"
+    },
+    {
+      "subject": "Regulating These Parameters To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Randomness",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "By tightly regulating these parameters to reduce randomness, AI systems become\n\nmore predictable and factual, but at the cost of creativity and human-like behaviors.",
+      "paper_id": "2608.18816v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.18816v1_c12"
+    },
+    {
+      "subject": "Umption That Ai Systems Must Be",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Subjective Experiences To Replicate Them",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "This question challenges the assumption that AI systems must be trained on\n\nsubjective experiences to replicate them.",
+      "paper_id": "2608.18816v1",
+      "section": "1. Introduction",
+      "chunk_id": "2608.18816v1_c15"
+    }
+  ]
+}

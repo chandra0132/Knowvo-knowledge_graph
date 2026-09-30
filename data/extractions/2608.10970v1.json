@@ -1,0 +1,58 @@
+{
+  "paper_id": "2608.10970v1",
+  "total_triplets": 4,
+  "triplets": [
+    {
+      "subject": "D Using A Path-Aware Classifier",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Taxonomy\nStructures",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "Candidate parent–child relations are verified using a path-aware classifier trained on taxonomy\nstructures, allowing structurally inconsistent generations to be filtered before insertion into the taxonomy.",
+      "paper_id": "2608.10970v1",
+      "section": "Abstract",
+      "chunk_id": "2608.10970v1_c2"
+    },
+    {
+      "subject": "Egulate\nRecursive Expansion And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Propagation Of\nErroneous Generations",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Recursive stopping criteria further regulate\nrecursive expansion and reduce the propagation of\nerroneous generations.",
+      "paper_id": "2608.10970v1",
+      "section": "Abstract",
+      "chunk_id": "2608.10970v1_c2"
+    },
+    {
+      "subject": "Ild Relation Using A Classifier",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Taxonomy Edges",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "4.2\nStructure-Aware Candidate Validation\n\nWe investigated three validation strategies: (i) se-\n\nmantic similarity filtering, which measures the semantic compatibility between the generated concept and its local taxonomy context; (ii) LLMbased validation, where an LLM judges whether\nthe generated concept represents a valid, nonredundant child of the parent; and (iii) classifierguided validation, which predicts the structural validity of the parent–child relation using a classifier\ntrained on taxonomy edges.",
+      "paper_id": "2608.10970v1",
+      "section": "Abstract",
+      "chunk_id": "2608.10970v1_c5"
+    },
+    {
+      "subject": "Proposed Validation Module",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "These Issues",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Although the proposed validation module mitigates these issues, some errors\nmay still remain.",
+      "paper_id": "2608.10970v1",
+      "section": "Limitations",
+      "chunk_id": "2608.10970v1_c16"
+    }
+  ]
+}

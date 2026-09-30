@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00257v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Active-Rag",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Dense Retrieval",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, Active-RAG extends Dense Retrieval, mitigating known factuality degradation.",
+      "paper_id": "2608.00257v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00257v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Active-Rag",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Dense Retrieval",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring Active-RAG extends Dense Retrieval, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00257v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00257v1_chunk_004"
+    }
+  ]
+}

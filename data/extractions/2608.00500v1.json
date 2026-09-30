@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00500v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Selfcorrect-Llm",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucination Rate",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Specifically, SelfCorrect-LLM mitigates Hallucination Rate, mitigating known factuality degradation.",
+      "paper_id": "2608.00500v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00500v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Selfcorrect-Llm",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucination Rate",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "By ensuring SelfCorrect-LLM mitigates Hallucination Rate, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00500v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00500v1_chunk_004"
+    }
+  ]
+}

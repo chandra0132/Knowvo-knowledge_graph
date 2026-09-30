@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00479v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Ontodecode",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Domain Ontology",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, OntoDecode uses Domain Ontology, mitigating known factuality degradation.",
+      "paper_id": "2608.00479v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00479v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Ontodecode",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Domain Ontology",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring OntoDecode uses Domain Ontology, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00479v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00479v1_chunk_004"
+    }
+  ]
+}

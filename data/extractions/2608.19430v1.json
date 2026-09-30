@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.19430v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "Showing That Harp\nConsistently",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Ranking Quality",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "• We conduct experiments showing that HARP\nconsistently improves ranking quality over\nbaselines across multiple backbone LLMs.",
+      "paper_id": "2608.19430v1",
+      "section": "methods that require an explicit textual preference",
+      "chunk_id": "2608.19430v1_c5"
+    },
+    {
+      "subject": "Agreement Among Top Candidates",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Ranking Stability",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "No Top-K Consensus also underperforms the\nfull model, suggesting that preserving cross-view\nagreement among top candidates improves ranking stability.",
+      "paper_id": "2608.19430v1",
+      "section": "methods that require an explicit textual preference",
+      "chunk_id": "2608.19430v1_c15"
+    },
+    {
+      "subject": "Inference",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Multiple View-Wise\nScoring Calls",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Inference uses multiple view-wise\nscoring calls, and wall-clock cost may vary with\ncandidate-set size and hardware.",
+      "paper_id": "2608.19430v1",
+      "section": "methods that require an explicit textual preference",
+      "chunk_id": "2608.19430v1_c17"
+    }
+  ]
+}

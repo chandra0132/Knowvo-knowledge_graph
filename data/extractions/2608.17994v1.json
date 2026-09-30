@@ -1,0 +1,123 @@
+{
+  "paper_id": "2608.17994v1",
+  "total_triplets": 9,
+  "triplets": [
+    {
+      "subject": "Pearson Bound",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "To The Two-Threshold Routing Setting",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "• We show that the Bernoulli structure required for the Clopper–Pearson bound\nextends to the two-threshold routing setting.",
+      "paper_id": "2608.17994v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17994v1_c3"
+    },
+    {
+      "subject": "Risk-Controlled Framework",
+      "subject_type": "Method",
+      "relation": "PROPOSES",
+      "candidate_relation": null,
+      "object": "Llm-As-A-Judge Evaluation",
+      "object_type": "Task",
+      "confidence": 0.88,
+      "evidence_span": "Methodology\n\nWe propose a risk-controlled framework for LLM-as-a-judge evaluation.",
+      "paper_id": "2608.17994v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17994v1_c5"
+    },
+    {
+      "subject": "E Number Of Instances The Judge",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "While Targeting Eq",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "(8)\n\nThis maximizes the number of instances the judge evaluates while targeting Eq.",
+      "paper_id": "2608.17994v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17994v1_c7"
+    },
+    {
+      "subject": "Because This Search",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Many Threshold Pairs",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Because this search\nevaluates many threshold pairs, we additionally report a conservative variant that corrects\nfor it via a Bonferroni adjustment (δ′ = δ/(|T1| |T2|)) (see Appendix D.4).",
+      "paper_id": "2608.17994v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17994v1_c8"
+    },
+    {
+      "subject": "Which",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Qwen2",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "This ground-truth label e∗is computed using three admission functions: (1) Exact\nMatch (EM), (2) Token F1 (threshold ≥0.5), and (3) LLM Evaluator (Badshah & Sajjad,\n2025; Badshah et al., 2025), which uses Qwen2.5-7B-Instruct (Qwen Team, 2025a) as a\nreference-based evaluator to judge semantic equivalence.",
+      "paper_id": "2608.17994v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17994v1_c9"
+    },
+    {
+      "subject": "Overage Drops Across All Judges",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Qwen-8B",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "Evaluating the stronger Llama-70B candidate is consistently\nharder: coverage drops across all judges compared to Qwen-8B, with the best judge reaching\nonly 53% on HotpotQA at α=0.20.",
+      "paper_id": "2608.17994v1",
+      "section": "Evaluation metrics.",
+      "chunk_id": "2608.17994v1_c12"
+    },
+    {
+      "subject": "Second Calibrated Threshold",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "These Cases And Routes Them To\nAbstention",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The second calibrated threshold identifies these cases and routes them to\nabstention.",
+      "paper_id": "2608.17994v1",
+      "section": "Evaluation metrics.",
+      "chunk_id": "2608.17994v1_c13"
+    },
+    {
+      "subject": "Probe Also",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Over Pe",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "The Probe also improves over PE on\nmore challenging datasets at moderate risk levels (e.g., NQ-Open at α=0.15, 0.24 →0.42),\nalthough it performs worse at the lowest risk levels.",
+      "paper_id": "2608.17994v1",
+      "section": "evaluation of free-form QA. In Chen Zhang, Emily Allaway, Hua Shen, Lesly Miculicich,",
+      "chunk_id": "2608.17994v1_c28"
+    },
+    {
+      "subject": "On Most Items\nRetrieval",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Uncertainty",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "On most items\nretrieval reduces uncertainty, but on 14–29% it raises it, concentrated on the multi-hop\nHotpotQA and NQ-Open, where retrieved snippets are only partially relevant or sources\ndisagree.",
+      "paper_id": "2608.17994v1",
+      "section": "evaluation of free-form QA. In Chen Zhang, Emily Allaway, Hua Shen, Lesly Miculicich,",
+      "chunk_id": "2608.17994v1_c31"
+    }
+  ]
+}

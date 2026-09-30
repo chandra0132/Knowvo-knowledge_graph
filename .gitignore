@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.env
+
+# Project Data & Cache
+data/raw_pdfs/*
+!data/raw_pdfs/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/

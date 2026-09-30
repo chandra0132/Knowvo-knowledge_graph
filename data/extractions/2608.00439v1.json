@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00439v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Dextersql",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Bird-Dev Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, DexterSQL evaluates BIRD-Dev Benchmark, mitigating known factuality degradation.",
+      "paper_id": "2608.00439v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00439v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Dextersql",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Bird-Dev Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring DexterSQL evaluates BIRD-Dev Benchmark, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00439v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00439v1_chunk_004"
+    }
+  ]
+}

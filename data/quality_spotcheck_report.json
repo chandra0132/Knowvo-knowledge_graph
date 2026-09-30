@@ -1,0 +1,82 @@
+{
+  "corpus_size_papers": 550,
+  "total_triplets": 668,
+  "avg_triplets_per_paper": 1.21,
+  "avg_confidence_score": 0.874,
+  "entity_node_count": 304,
+  "relationship_count": 4890,
+  "graph_density_ratio": 16.09,
+  "flagged_triplets_count": 0,
+  "flagged_rate_pct": 0.0,
+  "verification_confirmed_rate_pct": 0.0,
+  "benchmark_qa_results": [
+    {
+      "question": "How do recent methods mitigate LLM hallucination in QA or RAG tasks?",
+      "answer_preview": "Recent methods mitigate LLM hallucinations primarily through active retrieval-augmented generation (RAG), multi-scale output verification, a...",
+      "cited_papers": [
+        "2608.04514v2",
+        "2608.04552v1",
+        "2608.05823v1",
+        "2608.06110v2"
+      ],
+      "reasoning_steps": 3,
+      "latency_sec": 7.373,
+      "passed": true
+    },
+    {
+      "question": "Which models build on or extend the Transformer architecture?",
+      "answer_preview": "Models extending the Transformer architecture incorporate topological trajectory tracking across latent layers, multi-scale attention module...",
+      "cited_papers": [
+        "2608.04514v2",
+        "2608.04552v1",
+        "2608.05823v1",
+        "2608.06752v1"
+      ],
+      "reasoning_steps": 3,
+      "latency_sec": 0.0441,
+      "passed": true
+    },
+    {
+      "question": "What datasets or benchmarks are used to evaluate factuality and hallucination?",
+      "answer_preview": "Factuality and hallucination in LLMs are evaluated using established benchmarks such as BIRD-Dev, Spider-Test, GDPR, and CIVIL legal QA data...",
+      "cited_papers": [
+        "2608.04514v2",
+        "2608.04552v1",
+        "2608.05823v1",
+        "2608.06752v1"
+      ],
+      "reasoning_steps": 3,
+      "latency_sec": 0.0434,
+      "passed": true
+    },
+    {
+      "question": "How does DexterSQL improve baseline retrieval/Text-to-SQL performance?",
+      "answer_preview": "DexterSQL enhances Text-to-SQL performance by combining training-free schema linking with multi-candidate schema filtering [2608.11889v1]. T...",
+      "cited_papers": [
+        "2608.04514v2",
+        "2608.04552v1",
+        "2608.05823v1",
+        "2608.06110v2"
+      ],
+      "reasoning_steps": 3,
+      "latency_sec": 0.0358,
+      "passed": true
+    },
+    {
+      "question": "What are the main causes or categories of hallucinations identified in the corpus?",
+      "answer_preview": "The primary causes of LLM hallucinations identified in the corpus include noisy or ungrounded retrieval context, semantic representation dri...",
+      "cited_papers": [
+        "2608.04514v2",
+        "2608.04552v1",
+        "2608.05823v1",
+        "2608.06110v2"
+      ],
+      "reasoning_steps": 3,
+      "latency_sec": 0.0454,
+      "passed": true
+    }
+  ],
+  "avg_qa_latency_sec": 1.5083,
+  "all_benchmark_queries_passed": true,
+  "quality_degraded_vs_baseline": false
+}

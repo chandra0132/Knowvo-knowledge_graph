@@ -1,0 +1,58 @@
+{
+  "paper_id": "2608.06110v2",
+  "total_triplets": 4,
+  "triplets": [
+    {
+      "subject": "Ves A\nSilent Generic Refusal To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Adversarial Feedback",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "c) Intent-Aware Response Routing: Unsafe GNN predictions trigger intent-specific responses: self-harm risk surfaces\nemergency contacts with a supportive message; acute medical\nrisk advises immediate emergency care; harmful treatment\nrecommends physician consultation; manipulation receives a\nsilent generic refusal to prevent adversarial feedback.",
+      "paper_id": "2608.06110v2",
+      "section": "II. RELATED WORK",
+      "chunk_id": "2608.06110v2_c6"
+    },
+    {
+      "subject": "While Bert Remains Frozen To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Overfitting On The Smaller\nClinical Datasets",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "During fine-tuning, the upper\nWhisper layers and fusion/classification heads are updated,\nwhile BERT remains frozen to reduce overfitting on the smaller\nclinical datasets.",
+      "paper_id": "2608.06110v2",
+      "section": "II. RELATED WORK",
+      "chunk_id": "2608.06110v2_c7"
+    },
+    {
+      "subject": "Final Model",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Mean Macro F1 From 0",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "TABLE IV\nSPEECH ASSESSMENT RESULTS (MACRO F1)\n\nTask\nBaseline\nFinal\n∆\n\nEmotion (5-class)\n0.698\n0.732\n+0.034\nPain (binary)\n0.596\n0.685\n+0.089\nDepression (binary)\n0.528\n0.538\n+0.010\n\nMean\n0.607\n0.652\n+0.045\n\nThe final model improves mean macro F1 from 0.607 to\n0.652, indicating that adding BERT-based transcript features\nand cross-attention fusion provides a clear benefit over the\nWhisper-only baseline.",
+      "paper_id": "2608.06110v2",
+      "section": "II. RELATED WORK",
+      "chunk_id": "2608.06110v2_c9"
+    },
+    {
+      "subject": "Emotion Recognition Also",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Moderately",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Emotion recognition also improves moderately.",
+      "paper_id": "2608.06110v2",
+      "section": "II. RELATED WORK",
+      "chunk_id": "2608.06110v2_c9"
+    }
+  ]
+}

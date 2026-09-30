@@ -1,0 +1,71 @@
+{
+  "paper_id": "2608.18489v1",
+  "total_triplets": 5,
+  "triplets": [
+    {
+      "subject": "Random Missingness",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "All Support Edges As Candidates",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Random missingness uses all support edges as candidates, C(rand)\n\ni\n= Ei.",
+      "paper_id": "2608.18489v1",
+      "section": "Method",
+      "chunk_id": "2608.18489v1_c10"
+    },
+    {
+      "subject": "Relation-Level Missingness",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "All Support Edges As Candidates",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Relation-level missingness\nuses all support edges as candidates, C(rel)\n\ni\n= Ei, and groups\nthem by relation type.",
+      "paper_id": "2608.18489v1",
+      "section": "Method",
+      "chunk_id": "2608.18489v1_c11"
+    },
+    {
+      "subject": "Tion Details\nRandom Missingness",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Fixed Global Seed",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Implementation Details\nRandom missingness uses a fixed global seed, with perexample seeds derived from the sample identifier, severity,\nand operator.",
+      "paper_id": "2608.18489v1",
+      "section": "Evaluation protocol.",
+      "chunk_id": "2608.18489v1_c15"
+    },
+    {
+      "subject": "Urce-Side Context Can Sometimes",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Distracting\nEvidence Rather Than Harm Prediction",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This indicates that removing source-side context can sometimes reduce distracting\nevidence rather than harm prediction.",
+      "paper_id": "2608.18489v1",
+      "section": "Evaluation protocol.",
+      "chunk_id": "2608.18489v1_c16"
+    },
+    {
+      "subject": "Is Missing And How Each System",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Remaining Graph",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Together, these results provide the main empirical support\nfor typed degradation profiles: under the same paired protocol, incomplete-support degradation depends on what kind\nof evidence is missing and how each system uses the remaining graph.",
+      "paper_id": "2608.18489v1",
+      "section": "Evaluation protocol.",
+      "chunk_id": "2608.18489v1_c17"
+    }
+  ]
+}

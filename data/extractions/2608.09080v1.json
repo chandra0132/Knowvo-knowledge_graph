@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.09080v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Randomized For Each Question To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Positional Bias",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "It is pertinent to note that\n\nthe position of this option is randomized for each question to\nmitigate positional bias.",
+      "paper_id": "2608.09080v1",
+      "section": "IV. EXPERIMENTAL SETUP",
+      "chunk_id": "2608.09080v1_c11"
+    },
+    {
+      "subject": "Since Llms Are\nPredominantly",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Tasks Where A Correct Answer Exists",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "Since LLMs are\npredominantly trained on tasks where a correct answer exists,\nthey develop a preference for generating informative responses\nrather than selecting abstention options.",
+      "paper_id": "2608.09080v1",
+      "section": "V. RESULTS",
+      "chunk_id": "2608.09080v1_c14"
+    },
+    {
+      "subject": "Ni Show Significant Differences",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Gpt-5",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, GPT-4o and GPT-4o-mini show significant differences compared to GPT-5, LLaMA, and Mistral.",
+      "paper_id": "2608.09080v1",
+      "section": "V. RESULTS",
+      "chunk_id": "2608.09080v1_c17"
+    },
+    {
+      "subject": "Mpt\nLevel Does Not Meaningfully",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "This Behavior",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Moreover, introducing uncertainty cues at the prompt\nlevel does not meaningfully mitigate this behavior.",
+      "paper_id": "2608.09080v1",
+      "section": "VI. DISCUSSION",
+      "chunk_id": "2608.09080v1_c18"
+    },
+    {
+      "subject": "Rediction And Are Predominantly",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Tasks\nWhere A Valid Answer Exists",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "Since models are optimized for\nnext-token prediction and are predominantly trained on tasks\nwhere a valid answer exists, they implicitly learn to generate\ninformative outputs rather than abstain.",
+      "paper_id": "2608.09080v1",
+      "section": "VI. DISCUSSION",
+      "chunk_id": "2608.09080v1_c18"
+    },
+    {
+      "subject": "Models Fail To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Confidence Or\nAbstain Appropriately",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Even when uncertainty\nis explicitly introduced, models fail to reduce confidence or\nabstain appropriately.",
+      "paper_id": "2608.09080v1",
+      "section": "VIII. CONCLUSION AND FUTURE WORK",
+      "chunk_id": "2608.09080v1_c21"
+    }
+  ]
+}

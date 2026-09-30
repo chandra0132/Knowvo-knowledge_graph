@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00132v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Contraresolve",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Cross-Paper Conflict",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Specifically, ContraResolve mitigates Cross-Paper Conflict, mitigating known factuality degradation.",
+      "paper_id": "2608.00132v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00132v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Contraresolve",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Cross-Paper Conflict",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "By ensuring ContraResolve mitigates Cross-Paper Conflict, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00132v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00132v1_chunk_004"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "paper_id": "2608.04514v2",
+  "total_triplets": 5,
+  "triplets": [
+    {
+      "subject": "Usability That Are Difficult To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "To\nKeyword Matching",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Conversely, rubric-based\nevaluation can capture appropriateness, prioritization, internal consistency, and usability that are difficult to reduce to\nkeyword matching.",
+      "paper_id": "2608.04514v2",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04514v2_c4"
+    },
+    {
+      "subject": "Ed\nIn An Independent Request To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Conversational Carryover",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Each benchmark item was submitted\nin an independent request to prevent conversational carryover.",
+      "paper_id": "2608.04514v2",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04514v2_c8"
+    },
+    {
+      "subject": "Colors",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Models",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Circles denote PNBIM and squares denote AECOPD-PIM; colors identify models.",
+      "paper_id": "2608.04514v2",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04514v2_c13"
+    },
+    {
+      "subject": "Ctured Clinical-Action Coverage",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Omissions And Facilitates Error Analysis",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Structured clinical-action coverage identifies omissions and facilitates error analysis.",
+      "paper_id": "2608.04514v2",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04514v2_c16"
+    },
+    {
+      "subject": "Benchmark Also",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Expert-Derived Clinical Actions",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "The benchmark also uses expert-derived clinical actions, separately measures holistic quality\nand explicit content, and reports scenario-specific safety outcomes.",
+      "paper_id": "2608.04514v2",
+      "section": "ABSTRACT",
+      "chunk_id": "2608.04514v2_c17"
+    }
+  ]
+}

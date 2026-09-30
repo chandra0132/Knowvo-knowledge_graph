@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00127v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Agentverify",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Cross-Document Evidence",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, AgentVerify uses Cross-Document Evidence, mitigating known factuality degradation.",
+      "paper_id": "2608.00127v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00127v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Agentverify",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Cross-Document Evidence",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring AgentVerify uses Cross-Document Evidence, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00127v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00127v1_chunk_004"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.17950v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "Distinct Topological\nFractures",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Factually Grounded Outputs",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "We employ this dataset to validate that hallucinated generations possess distinct topological\nfractures compared to factually grounded outputs.",
+      "paper_id": "2608.17950v1",
+      "section": "methodology for quantifying the efficiency of se-",
+      "chunk_id": "2608.17950v1_c9"
+    },
+    {
+      "subject": "Tokens To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Selection Of Localized Phrases",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "We strictly enforce a physical\nseparation constraint of δ ≥20 tokens to prevent\nthe selection of localized phrases.",
+      "paper_id": "2608.17950v1",
+      "section": "methodology for quantifying the efficiency of se-",
+      "chunk_id": "2608.17950v1_c9"
+    },
+    {
+      "subject": "Y Layers Where Extreme Sparsity",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Formation Of Viable Pathways",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Lavg is omitted (–) for early layers where extreme sparsity prevents the formation of viable pathways.",
+      "paper_id": "2608.17950v1",
+      "section": "methodology for quantifying the efficiency of se-",
+      "chunk_id": "2608.17950v1_c11"
+    }
+  ]
+}

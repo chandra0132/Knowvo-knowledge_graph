@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00131v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Tempgraphrag",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Append-Only Event Store",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, TempGraphRAG uses Append-Only Event Store, mitigating known factuality degradation.",
+      "paper_id": "2608.00131v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00131v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Tempgraphrag",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Append-Only Event Store",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring TempGraphRAG uses Append-Only Event Store, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00131v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00131v1_chunk_004"
+    }
+  ]
+}

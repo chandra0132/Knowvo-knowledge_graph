@@ -1,0 +1,97 @@
+{
+  "paper_id": "2608.20083v1",
+  "total_triplets": 7,
+  "triplets": [
+    {
+      "subject": "Ically\nDemonstrate\nThat\nSabetqa",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Strong Baselines",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "• We\nempirically\ndemonstrate\nthat\nSABETQA outperforms strong baselines on CronQuestions (Saxena et al., 2021), ComplexCronQuestions (Chen et al., 2022),\nMultiTQ (Chen et al., 2023), and TimeQuestions (Jia\net al., 2021), with particularly strong gains on\ncomplex questions.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c2"
+    },
+    {
+      "subject": "Model First",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Entity And Temporal\nMentions In The Question",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The model first identifies the entity and temporal\nmentions in the question.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c7"
+    },
+    {
+      "subject": "Here Sabet-\n\nQa",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Tempoqr",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Here SABET-\n\nQA outperforms TempoQR by 9.3 Hits@1 points\noverall, with the non-hard variant actually edging\nSABET-QA-Hard on time-specific accuracy (0.609\nvs.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c10"
+    },
+    {
+      "subject": "Ucture-Aware\nTemporal Reasoning",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Single-Pass Embedding Matching",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "The gains are largest on\ncomplex multi-hop questions and timestamp prediction, confirming that iterative, structure-aware\ntemporal reasoning outperforms single-pass embedding matching.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c10"
+    },
+    {
+      "subject": "During Qa Training",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Performance",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Table 2 examines whether updating the\npretrained language model (LM) and temporal\nknowledge embeddings (TKE) during QA training improves performance.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c12"
+    },
+    {
+      "subject": "Our Model",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Head-Tail Directional Ambiguity",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "By introducing bidirectional entity and time scoring, our model mitigates head-tail directional ambiguity, a common\nfailure mode in prior methods.",
+      "paper_id": "2608.20083v1",
+      "section": "Abstract",
+      "chunk_id": "2608.20083v1_c14"
+    },
+    {
+      "subject": "Duces A Performance Degradation",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Gold-Annotated\nMentions",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "Error propagation from\nnoisy slot extractions inherently introduces a performance degradation compared to gold-annotated\nmentions, highlighting a dependency on upstream\nentity linking accuracy in end-to-end setups.",
+      "paper_id": "2608.20083v1",
+      "section": "Limitations",
+      "chunk_id": "2608.20083v1_c16"
+    }
+  ]
+}

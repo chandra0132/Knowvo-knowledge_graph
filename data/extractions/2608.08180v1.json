@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.08180v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Extracted\nRelation Triples And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Spurious Matches During Evaluation",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "These enhancements improve the structural fidelity of extracted\nrelation triples and reduce spurious matches during evaluation.",
+      "paper_id": "2608.08180v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.08180v1_c0"
+    },
+    {
+      "subject": "Isting Approaches Often Fail To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Relation-Level Inconsistencies",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Consequently, existing approaches often fail to identify\nrelation-level inconsistencies, motivating the need for structured and normalized relational evaluation mechanisms.",
+      "paper_id": "2608.08180v1",
+      "section": "B. Limitations of Existing Metrics",
+      "chunk_id": "2608.08180v1_c3"
+    },
+    {
+      "subject": "Hance Structural Robustness And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Spurious Tuple Generation",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Relation Extraction Framework\n\nWe propose a dependency-aware relation extraction framework designed to enhance structural robustness and reduce\nspurious tuple generation.",
+      "paper_id": "2608.08180v1",
+      "section": "IV. METHODOLOGY",
+      "chunk_id": "2608.08180v1_c7"
+    },
+    {
+      "subject": "Representing The Six Factors To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Relation\nHallucination\n\nImplicit Actors",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Venn Diagram representing the six factors to identify the relation\nhallucination\n\nimplicit actors, while negation-aware verb modeling preserves\nrelational polarity.",
+      "paper_id": "2608.08180v1",
+      "section": "IV. METHODOLOGY",
+      "chunk_id": "2608.08180v1_c7"
+    },
+    {
+      "subject": "Ency Of Extracted Relations And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Artificial Inflation Of\nHallucination Factors",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "These refinements collectively improve structural consistency of extracted relations and reduce artificial inflation of\nhallucination factors.",
+      "paper_id": "2608.08180v1",
+      "section": "IV. METHODOLOGY",
+      "chunk_id": "2608.08180v1_c7"
+    },
+    {
+      "subject": "Confirming That Rhi",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Factual Grounding Rather Than Fluency",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Notably, generation failure in DistilBART results in nearzero relational factors, leading to reduced RHInorm despite\nhigh coherence, confirming that RHI evaluates factual grounding rather than fluency.",
+      "paper_id": "2608.08180v1",
+      "section": "V. RESULTS",
+      "chunk_id": "2608.08180v1_c13"
+    }
+  ]
+}

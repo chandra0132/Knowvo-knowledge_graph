@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.05823v1",
+  "total_triplets": 2,
+  "triplets": [
+    {
+      "subject": "Astive Multi-Scale Verification",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Recall",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Under a matched\n4-bit consumer-hardware protocol, claim-level decomposition with contrastive multi-scale verification improves recall over holistic NLI and remains\nstable where generative judges are volatile, while\nexposing a claim-to-span audit trail.",
+      "paper_id": "2608.05823v1",
+      "section": "Abstract",
+      "chunk_id": "2608.05823v1_c14"
+    },
+    {
+      "subject": "Claim Grouping To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Nli Overhead",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Future work\nwill include direct comparison to specialized factcheckers such as MiniCheck and FActScore-style\npipelines, ablations isolating decomposition from\nmulti-scale chunking, threshold-free evaluation,\nClaim Grouping to reduce NLI overhead, and external knowledge for extrinsic verification.",
+      "paper_id": "2608.05823v1",
+      "section": "Abstract",
+      "chunk_id": "2608.05823v1_c14"
+    }
+  ]
+}

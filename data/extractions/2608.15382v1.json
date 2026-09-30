@@ -1,0 +1,58 @@
+{
+  "paper_id": "2608.15382v1",
+  "total_triplets": 4,
+  "triplets": [
+    {
+      "subject": "Luation\nA Parallel Line Of Work",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Whether Generative Outputs Are Factual",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Hallucination, attribution, and unsupported-claim evaluation\nA parallel line of work evaluates whether generative outputs are factual, attributable, and supported by their cited sources.",
+      "paper_id": "2608.15382v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15382v1_c9"
+    },
+    {
+      "subject": "Two Metrics Lets The Framework",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "That Gap Rather Than Collapse It Into One Number",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This distinction is deliberate: in a decision-support setting it is possible to be\n\"not wrong\" (any of several acceptable actions) without being \"right\" (the action the guidelines actually prefer for that\ncontext), and separating the two metrics lets the framework detect that gap rather than collapse it into one number.",
+      "paper_id": "2608.15382v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15382v1_c17"
+    },
+    {
+      "subject": "Which",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Cardiovascular Events",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "It blocks angiotensin II production and thereby lowers blood pressure,\nwhich reduces cardiovascular events.",
+      "paper_id": "2608.15382v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15382v1_c19"
+    },
+    {
+      "subject": "Graph Substrate",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Neo4J",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "The graph substrate uses\nNeo4j, populated from CSV source tables (entities.csv, assertions.csv, evidence_sources.csv, assertion_evidence.csv, and\nrelated) via a bulk import script and cypher validation queries.",
+      "paper_id": "2608.15382v1",
+      "section": "2. Related Work",
+      "chunk_id": "2608.15382v1_c20"
+    }
+  ]
+}

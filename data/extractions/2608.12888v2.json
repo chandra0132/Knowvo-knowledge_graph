@@ -1,0 +1,71 @@
+{
+  "paper_id": "2608.12888v2",
+  "total_triplets": 5,
+  "triplets": [
+    {
+      "subject": "Lme Subtask",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Gpt-4O As Judge",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "(2025): the LME subtask\nuses GPT-4o as judge, and the remaining tasks use automatic metrics (SubEM, ROUGE-L, Recall@5).",
+      "paper_id": "2608.12888v2",
+      "section": "Evaluation Setup",
+      "chunk_id": "2608.12888v2_c9"
+    },
+    {
+      "subject": "Our Gam Run Also",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Gpt-5-Mini\nAs The Backbone Generator",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Our GAM run also uses GPT-5-mini\nas the backbone generator, and we re-evaluate its outputs with the same GPT-4.1-mini judge and verdict\nparsing protocol described below.",
+      "paper_id": "2608.12888v2",
+      "section": "Appendix",
+      "chunk_id": "2608.12888v2_c19"
+    },
+    {
+      "subject": "Lme Subtask",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Mabench Llm-As-Judge Protocol",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "The LME subtask uses the MABench LLM-as-judge protocol,\nwhile the remaining subtasks use the official automatic metrics.",
+      "paper_id": "2608.12888v2",
+      "section": "Appendix",
+      "chunk_id": "2608.12888v2_c19"
+    },
+    {
+      "subject": "Full Loop",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Observed Mean",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "The full loop improves the observed mean by 8.5 points on S and 20.4 on M.",
+      "paper_id": "2608.12888v2",
+      "section": "Appendix",
+      "chunk_id": "2608.12888v2_c22"
+    },
+    {
+      "subject": "Se On S With Lower Variance And",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "M By 4",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Hybrid ties Dense on S with lower variance and\nimproves M by 4.4 points, but remains 1.9 (S) and 2.6 (M) points below BM25.",
+      "paper_id": "2608.12888v2",
+      "section": "Method",
+      "chunk_id": "2608.12888v2_c23"
+    }
+  ]
+}

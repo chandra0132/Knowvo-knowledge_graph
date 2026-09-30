@@ -1,0 +1,97 @@
+{
+  "paper_id": "2608.13706v2",
+  "total_triplets": 7,
+  "triplets": [
+    {
+      "subject": "E In Fy25 Showed An Improvement",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Fy24",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "Generated Response\nThe overall balance of payments outcome in FY25 showed an improvement\ncompared to FY24, as evidenced by a narrowing of the current account\nbalance deficit and an increase in workers' remittance inflows.",
+      "paper_id": "2608.13706v2",
+      "section": "Abstract",
+      "chunk_id": "2608.13706v2_c1"
+    },
+    {
+      "subject": "Systems\n\nA Second Line Of Work",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Multi-Agent Debate",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "2.2\nMulti-Agent Debate and Financial\nMulti-Agent Systems\n\nA second line of work uses multi-agent debate, LLM instances critiquing and revising outputs, to improve factuality and reasoning (Du\net al., 2024).",
+      "paper_id": "2608.13706v2",
+      "section": "Abstract",
+      "chunk_id": "2608.13706v2_c5"
+    },
+    {
+      "subject": "Value",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Calculator When Required",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Grounds evidence using: Row, Column, Value\nUses a calculator when required.",
+      "paper_id": "2608.13706v2",
+      "section": "Abstract",
+      "chunk_id": "2608.13706v2_c7"
+    },
+    {
+      "subject": "Adversarial Counsel Attempts To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Weaknesses In The Draft",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Affirmative Counsel\nAdversarial Counsel\n\nThe Affirmative Counsel\ndrafts a brief using the\nsupporting evidence:\nsupp(ci)\n\nThe Adversarial Counsel attempts to identify weaknesses in the draft, including:\n\nNumeric errors/Scope mismatches\nFiscal-year/temporal inconsistencies\nCausal overclaims/Citation gaps\nVisual over-precision\n\nEach attack receives a severity: σ∈{low,medium,high}\n\nThe system checks whether the evidence entails\nthe generated draft: ℓ=entails∧γ≥0.5\n\nIf the draft is not grounded:\n\nRepair unused: return to\nAffirmative Counsel for revision.",
+      "paper_id": "2608.13706v2",
+      "section": "Abstract",
+      "chunk_id": "2608.13706v2_c7"
+    },
+    {
+      "subject": "This Work",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Framework\nOffline",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Finally, this work evaluates the framework\noffline, per-question, rather than in a deployed,\nmulti-turn setting, so calibration drift, user trust\nover repeated interactions, and integration with analyst workflows remain future work.",
+      "paper_id": "2608.13706v2",
+      "section": "Evaluation Scope. Our automatic metrics, in-",
+      "chunk_id": "2608.13706v2_c19"
+    },
+    {
+      "subject": "Also",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Gpt-4O",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Visionbased table/chart extraction (Appendix B.2) also\nuses GPT-4o, called once per page at ingestion.",
+      "paper_id": "2608.13706v2",
+      "section": "Appendix",
+      "chunk_id": "2608.13706v2_c35"
+    },
+    {
+      "subject": "Ual Difficulty The Architecture",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "But Does Not\nEliminate",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "At the same time, Chart Only, Evidence Retrieval, and Multi-hop Reasoning remaining\nthe hardest categories even with the full framework active indicates these are not fully solved\nby current mechanisms; they represent residual difficulty the architecture reduces but does not\neliminate.",
+      "paper_id": "2608.13706v2",
+      "section": "Appendix",
+      "chunk_id": "2608.13706v2_c43"
+    }
+  ]
+}

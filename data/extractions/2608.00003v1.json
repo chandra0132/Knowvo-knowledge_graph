@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00003v1",
+  "total_triplets": 2,
+  "triplets": [
+    {
+      "subject": "Topotransformer",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Transformer Architecture",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, TopoTransformer builds on Transformer Architecture, mitigating known factuality degradation.",
+      "paper_id": "2608.00003v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00003v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Topotransformer",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Transformer Architecture",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring TopoTransformer builds on Transformer Architecture, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00003v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00003v1_chunk_004"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "paper_id": "2608.19075v1",
+  "total_triplets": 8,
+  "triplets": [
+    {
+      "subject": "Reweigh",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinated Object\nMentions By Up To 21",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "On four 7B backbones, ReWEIGH reduces hallucinated object\nmentions by up to 21.3% while largely preserving or improving descriptive and general\nperformance.",
+      "paper_id": "2608.19075v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19075v1_c1"
+    },
+    {
+      "subject": "Training-Free Decoding Methods",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Lvlm\nHallucinations Without Updating The Backbone",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Training-free decoding methods mitigate LVLM\nhallucinations without updating the backbone.",
+      "paper_id": "2608.19075v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19075v1_c4"
+    },
+    {
+      "subject": "Logit Scale To The Image Median",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "These Ratios Only To 11",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Equalizing each\nposition’s logit scale to the image median reduces\nthese ratios only to 11.0× and 4.2×, respectively,\nleaving substantial dispersion in place.",
+      "paper_id": "2608.19075v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19075v1_c6"
+    },
+    {
+      "subject": "Reweigh",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Chairi By 10",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Across the four\nmodels, ReWEIGH reduces CHAIRI by 10.3%–\n21.3% while largely preserving or improving F1,\nso it does not simply suppress object mentions.",
+      "paper_id": "2608.19075v1",
+      "section": "Method",
+      "chunk_id": "2608.19075v1_c10"
+    },
+    {
+      "subject": "Hair And Hallucination Rate And",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Amber Score For All Four Backbones",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "On AMBER generation, ReWEIGH lowers\nCHAIR and hallucination rate and improves the\nAMBER score for all four backbones.",
+      "paper_id": "2608.19075v1",
+      "section": "Method",
+      "chunk_id": "2608.19075v1_c11"
+    },
+    {
+      "subject": "Opera",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Chairs More Strongly On Qwen",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "OPERA reduces CHAIRS more strongly on Qwen, and PAI\nreaches a lower CHAIRS on LLaVA-1.5, but both\ngive up more F1 or discriminative performance.",
+      "paper_id": "2608.19075v1",
+      "section": "Method",
+      "chunk_id": "2608.19075v1_c11"
+    },
+    {
+      "subject": "Our\nCurrent Implementation",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Separate Calibration\nTable",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Our\ncurrent implementation uses a separate calibration\ntable, readout layer, and intervention strength for\neach backbone.",
+      "paper_id": "2608.19075v1",
+      "section": "Limitations",
+      "chunk_id": "2608.19075v1_c13"
+    },
+    {
+      "subject": "Step",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Deployed\nLlava-1",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "The step uses the deployed\nLLaVA-1.5-7B configuration of Table 5.",
+      "paper_id": "2608.19075v1",
+      "section": "Method",
+      "chunk_id": "2608.19075v1_c21"
+    }
+  ]
+}

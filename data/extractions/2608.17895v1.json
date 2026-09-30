@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.17895v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "No Existing Benchmark",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Self-Contained",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "To\nour knowledge, no existing benchmark evaluates\nself-contained, multi-step reasoning over Russianlanguage professional document pages whose items\ninvolve textual and graphical content such as figures, tables, charts, equations, and diagrams.",
+      "paper_id": "2608.17895v1",
+      "section": "Abstract",
+      "chunk_id": "2608.17895v1_c2"
+    },
+    {
+      "subject": "Prompting",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Accuracy",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "We\ntested whether explicit chain-of-thought (CoT)\nprompting improves accuracy on BEAR-Bench.",
+      "paper_id": "2608.17895v1",
+      "section": "Evaluation judge.",
+      "chunk_id": "2608.17895v1_c12"
+    },
+    {
+      "subject": "Ruct-Tuned Qwen3-Vl-8B-Instruct",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "By\n13",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "By contrast, the\ninstruct-tuned Qwen3-VL-8B-Instruct improves by\n13.7 percentage points when steered to externalize\n\nTable 2: BEAR-Bench leaderboard.",
+      "paper_id": "2608.17895v1",
+      "section": "Evaluation judge.",
+      "chunk_id": "2608.17895v1_c12"
+    }
+  ]
+}

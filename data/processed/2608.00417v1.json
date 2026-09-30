@@ -1,0 +1,60 @@
+{
+  "paper_id": "2608.00417v1",
+  "title": "Contradiction Resolution in Multi-Source QA: Scalable Framework for ContraResolve Variant 28",
+  "abstract": "We present ContraResolve (Variant 28), an advanced framework designed for contradiction resolution in multi-source qa. Recent models suffer from factual errors and representation drift when answering complex multi-hop queries. In this work, ContraResolve mitigates Cross-Paper Conflict to enhance conflicting scientific claims. Extensive evaluation across benchmarks demonstrates significant accuracy gains and reduced hallucination rates.",
+  "sections": {
+    "Abstract": [
+      "We present ContraResolve (Variant 28), an advanced framework designed for contradiction resolution in multi-source qa. Recent models suffer from factual errors and representation drift when answering complex multi-hop queries. In this work, ContraResolve mitigates Cross-Paper Conflict to enhance conflicting scientific claims. Extensive evaluation across benchmarks demonstrates significant accuracy gains and reduced hallucination rates."
+    ],
+    "Introduction": [
+      "Large Language Models (LLMs) frequently generate hallucinated or ungrounded assertions when operating on specialized domains. To address these limitations, recent paradigms integrate external knowledge stores. Our proposed system, ContraResolve, directly addresses these challenges by introducing structured relational inductive biases. Specifically, ContraResolve mitigates Cross-Paper Conflict, mitigating known factuality degradation."
+    ],
+    "Methodology": [
+      "The architecture of ContraResolve consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that ContraResolve mitigates Cross-Paper Conflict with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans."
+    ],
+    "Experiments and Evaluation": [
+      "We evaluate ContraResolve on standard public benchmarks including BIRD-Dev, Spider-Test, GDPR, and CIVIL QA datasets. We compare our approach against baseline dense retrieval and standard chain-of-thought prompting. Our empirical results confirm that ContraResolve achieves superior precision and recall on Conflicting Scientific Claims, outperforming baseline methods by an average of 14.2% in factual accuracy."
+    ],
+    "Conclusion": [
+      "In this paper, we introduced ContraResolve for contradiction resolution in multi-source qa. By ensuring ContraResolve mitigates Cross-Paper Conflict, our framework achieves reliable, verifiable reasoning. Future work will explore scaling to multi-modal knowledge graphs and real-time streaming updates."
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "2608.00417v1_chunk_000",
+      "paper_id": "2608.00417v1",
+      "section": "Abstract",
+      "chunk_index": 0,
+      "text": "We present ContraResolve (Variant 28), an advanced framework designed for contradiction resolution in multi-source qa. Recent models suffer from factual errors and representation drift when answering complex multi-hop queries. In this work, ContraResolve mitigates Cross-Paper Conflict to enhance conflicting scientific claims. Extensive evaluation across benchmarks demonstrates significant accuracy gains and reduced hallucination rates."
+    },
+    {
+      "chunk_id": "2608.00417v1_chunk_001",
+      "paper_id": "2608.00417v1",
+      "section": "Introduction",
+      "chunk_index": 1,
+      "text": "Large Language Models (LLMs) frequently generate hallucinated or ungrounded assertions when operating on specialized domains. To address these limitations, recent paradigms integrate external knowledge stores. Our proposed system, ContraResolve, directly addresses these challenges by introducing structured relational inductive biases. Specifically, ContraResolve mitigates Cross-Paper Conflict, mitigating known factuality degradation."
+    },
+    {
+      "chunk_id": "2608.00417v1_chunk_002",
+      "paper_id": "2608.00417v1",
+      "section": "Methodology",
+      "chunk_index": 2,
+      "text": "The architecture of ContraResolve consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that ContraResolve mitigates Cross-Paper Conflict with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans."
+    },
+    {
+      "chunk_id": "2608.00417v1_chunk_003",
+      "paper_id": "2608.00417v1",
+      "section": "Experiments and Evaluation",
+      "chunk_index": 3,
+      "text": "We evaluate ContraResolve on standard public benchmarks including BIRD-Dev, Spider-Test, GDPR, and CIVIL QA datasets. We compare our approach against baseline dense retrieval and standard chain-of-thought prompting. Our empirical results confirm that ContraResolve achieves superior precision and recall on Conflicting Scientific Claims, outperforming baseline methods by an average of 14.2% in factual accuracy."
+    },
+    {
+      "chunk_id": "2608.00417v1_chunk_004",
+      "paper_id": "2608.00417v1",
+      "section": "Conclusion",
+      "chunk_index": 4,
+      "text": "In this paper, we introduced ContraResolve for contradiction resolution in multi-source qa. By ensuring ContraResolve mitigates Cross-Paper Conflict, our framework achieves reliable, verifiable reasoning. Future work will explore scaling to multi-modal knowledge graphs and real-time streaming updates."
+    }
+  ],
+  "total_chunks": 5
+}

@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.17536v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "E Proposed Method Significantly",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Baseline Models Not",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Experimental\nresults demonstrate that the proposed method significantly outperforms\nbaseline models not only on Chinese legal benchmarks (SocialLawQA,\nLawBench) but also demonstrates strong cross-jurisdictional generalization on English datasets (LexGLUE, CaseHold).",
+      "paper_id": "2608.17536v1",
+      "section": "Abstract. Legal consultation questions exhibit multi-level complexity.",
+      "chunk_id": "2608.17536v1_c1"
+    },
+    {
+      "subject": "Bleu Score",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "By 42",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, on Chinese\ndatasets, the BLEU score improves by 42.5% and ROUGE-L reaches 3.6\ntimes that of knowledge graph-based methods.",
+      "paper_id": "2608.17536v1",
+      "section": "Abstract. Legal consultation questions exhibit multi-level complexity.",
+      "chunk_id": "2608.17536v1_c1"
+    },
+    {
+      "subject": "That Our Approach Significantly",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Existing Baselines",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Experiments conducted on both Chinese civil law datasets (SocialLawQA, LawBench) and English common law benchmarks (LexGLUE, CaseHold) demonstrate that our approach significantly outperforms existing baselines.",
+      "paper_id": "2608.17536v1",
+      "section": "Abstract. Legal consultation questions exhibit multi-level complexity.",
+      "chunk_id": "2608.17536v1_c3"
+    },
+    {
+      "subject": "Ng Module To Refine Results And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Semantic Drift",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "A hybrid retrieval strategy combining\ndense and sparse methods is employed, followed by a re-ranking module to refine results and mitigate semantic drift.",
+      "paper_id": "2608.17536v1",
+      "section": "method computes a complexity score Cfinal ∈[0, 1] based on both query charac-",
+      "chunk_id": "2608.17536v1_c8"
+    },
+    {
+      "subject": "Re\nCliffs Is Applied To Further",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Tail Noise",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "After determining the retrieval strategy, adaptive truncation based on score\ncliffs is applied to further reduce tail noise.",
+      "paper_id": "2608.17536v1",
+      "section": "method computes a complexity score Cfinal ∈[0, 1] based on both query charac-",
+      "chunk_id": "2608.17536v1_c8"
+    },
+    {
+      "subject": "S Of Latency",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Standard Rag",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "While adding ∼2 s of latency compared to Standard RAG, it improves LawBench BLEU by 61.8%, achieving an\noptimal trade-off between generation quality and real-time system performance.",
+      "paper_id": "2608.17536v1",
+      "section": "Methods",
+      "chunk_id": "2608.17536v1_c13"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.15834v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "This Paper",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Baselines Mostly On Xlarge",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Two nested tiers scale the benchmark\nwithout removing information; this paper evaluates the baselines mostly on xlarge.",
+      "paper_id": "2608.15834v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.15834v1_c4"
+    },
+    {
+      "subject": "Qwen3-Coder-Flash Significantly",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Gpt-5 Nano For Every System",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Among the lower-cost models,\nQwen3-Coder-Flash significantly outperforms GPT-5 Nano for every system.",
+      "paper_id": "2608.15834v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.15834v1_c5"
+    },
+    {
+      "subject": "This\nSchema-Agnostic Gra",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Full-Context Agent",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "On models that call tools reliably, this\nschema-agnostic GRA outperforms a full-context agent by up to 5.1 pp while reading a quarter to a third\nof its input.",
+      "paper_id": "2608.15834v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.15834v1_c14"
+    }
+  ]
+}

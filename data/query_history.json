@@ -1,0 +1,254 @@
+[
+  {
+    "question": "what is rag",
+    "answer": "Retrieval-Augmented Generation (RAG) empowers Large Language Models by retrieving relevant factual documents from an external corpus or knowledge graph and injecting them directly into the prompt context prior to answer generation [2608.00017v1, 2608.00032v1]. This grounds the LLM's responses in verified source data, enables access to specialized domain knowledge without retraining, and dramatically reduces factual hallucinations across complex Question-Answering tasks.",
+    "cited_papers": [
+      "2608.00017v1",
+      "2608.00032v1",
+      "2608.00047v1",
+      "2608.00107v1",
+      "2608.00122v1",
+      "2608.00287v1",
+      "2608.00467v1",
+      "2608.00482v1"
+    ],
+    "reasoning_path": [
+      "Identified RAG architecture paradigm across corpus papers [2608.00017v1, 2608.00032v1].",
+      "Mapped retrieval grounding as the core mechanism suppressing generative hallucination.",
+      "Synthesized standard RAG functionality and domain grounding workflow."
+    ],
+    "graph_paths": [
+      {
+        "subject": "Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00047v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, Active-RAG extends Dense Retrieval, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00032v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring Active-RAG extends Dense Retrieval, our framework achieves reliable, verifiable reasoning."
+      },
+      {
+        "subject": "Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00032v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, Active-RAG extends Dense Retrieval, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00017v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring Active-RAG extends Dense Retrieval, our framework achieves reliable, verifiable reasoning."
+      },
+      {
+        "subject": "Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00017v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, Active-RAG extends Dense Retrieval, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Active-Rag",
+        "subject_type": "Model",
+        "relation": "BUILDS_ON",
+        "object": "Dense Retrieval",
+        "object_type": "Architecture",
+        "paper_id": "2608.00047v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring Active-RAG extends Dense Retrieval, our framework achieves reliable, verifiable reasoning."
+      }
+    ],
+    "vector_hits": [
+      {
+        "chunk_id": "2608.00467v1_chunk_002",
+        "paper_id": "2608.00467v1",
+        "section": "Methodology",
+        "text": "The architecture of Active-RAG consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that Active-RAG extends Dense Retrieval with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans.",
+        "score": 0.6864545345306396
+      },
+      {
+        "chunk_id": "2608.00107v1_chunk_002",
+        "paper_id": "2608.00107v1",
+        "section": "Methodology",
+        "text": "The architecture of Active-RAG consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that Active-RAG extends Dense Retrieval with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans.",
+        "score": 0.6859416961669922
+      },
+      {
+        "chunk_id": "2608.00482v1_chunk_002",
+        "paper_id": "2608.00482v1",
+        "section": "Methodology",
+        "text": "The architecture of Active-RAG consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that Active-RAG extends Dense Retrieval with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans.",
+        "score": 0.6859416961669922
+      },
+      {
+        "chunk_id": "2608.00122v1_chunk_002",
+        "paper_id": "2608.00122v1",
+        "section": "Methodology",
+        "text": "The architecture of Active-RAG consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that Active-RAG extends Dense Retrieval with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans.",
+        "score": 0.6854820251464844
+      },
+      {
+        "chunk_id": "2608.00287v1_chunk_002",
+        "paper_id": "2608.00287v1",
+        "section": "Methodology",
+        "text": "The architecture of Active-RAG consists of three core components: hierarchical retrieval, multi-scale verification, and grounded generation. During the retrieval phase, candidate entities are mapped to canonical representations and queried against the knowledge base. We demonstrate that Active-RAG extends Dense Retrieval with high confidence (0.88), ensuring that factual assertions remain strictly grounded in verified evidence spans.",
+        "score": 0.6854820251464844
+      }
+    ],
+    "latency_sec": 1.2544,
+    "timestamp": "2026-09-28T17:00:04.302Z"
+  },
+  {
+    "question": "how to standardise the benchmark",
+    "answer": "Factuality and hallucination in LLMs are evaluated using established benchmarks such as BIRD-Dev, Spider-Test, GDPR, and CIVIL legal QA datasets [2608.00019v1, 2608.00034v1]. These benchmarks evaluate models against ground-truth schemas and factual constraints to measure hallucination rates and answer consistency.",
+    "cited_papers": [
+      "2608.00019v1",
+      "2608.00034v1",
+      "2608.00040v1",
+      "2608.00049v1",
+      "2608.00085v1",
+      "2608.00400v1",
+      "2608.10628v1",
+      "2608.12888v2"
+    ],
+    "reasoning_path": [
+      "Extracted evaluation benchmarks from graph nodes linked via EVALUATES and USES relations [2608.00019v1, 2608.00034v1].",
+      "Identified domain-specific datasets (BIRD-Dev, GDPR, CIVIL) in vector text chunks.",
+      "Summarized standard evaluation methodology across corpus."
+    ],
+    "graph_paths": [
+      {
+        "subject": "Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00049v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, DexterSQL evaluates BIRD-Dev Benchmark, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00034v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring DexterSQL evaluates BIRD-Dev Benchmark, our framework achieves reliable, verifiable reasoning."
+      },
+      {
+        "subject": "Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00034v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, DexterSQL evaluates BIRD-Dev Benchmark, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00019v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring DexterSQL evaluates BIRD-Dev Benchmark, our framework achieves reliable, verifiable reasoning."
+      },
+      {
+        "subject": "Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00019v1",
+        "section": "Introduction",
+        "confidence": 0.88,
+        "evidence_span": "Specifically, DexterSQL evaluates BIRD-Dev Benchmark, mitigating known factuality degradation."
+      },
+      {
+        "subject": "By Ensuring Dextersql",
+        "subject_type": "Method",
+        "relation": "EVALUATES",
+        "object": "Bird-Dev Benchmark",
+        "object_type": "Dataset",
+        "paper_id": "2608.00049v1",
+        "section": "Conclusion",
+        "confidence": 0.88,
+        "evidence_span": "By ensuring DexterSQL evaluates BIRD-Dev Benchmark, our framework achieves reliable, verifiable reasoning."
+      }
+    ],
+    "vector_hits": [
+      {
+        "chunk_id": "2608.10628v1_c11",
+        "paper_id": "2608.10628v1",
+        "section": "Evaluation setting.",
+        "text": "We evaluate on the following\nthree types of benchmarks:\n\n\u2022 Standard document VQA: DUDE (Van Landeghem et al., 2023) and MP-DocVQA (Tito\net al., 2023); with 5.7 and 7.0 pages on average.\n\n\u2022 Long document VQA: MMLongBench-Doc\n(Ma et al., 2024b) and LongDocURL (Deng et al.,\n2025); with 49.4 and 85.6 pages on average.\n\n\u2022 General high-res. VQA: MME-RealWorld-Lite\n(Zhang et al., 2024b) and O3-Bench (Li et al.,\n2026); both are single-image based.\n\nMore benchmark details are in Appendix E.1.\nAll PDF documents are rasterized at 200 DPI as\n\nground-truth high-resolution images. They are then\ndownsampled by r \u2208{0.25, 0.35, 0.5, 0.7}, which\nare equivalent to DPIs of {50, 70, 100, 140}.2 For\ndocuments that cannot fit within the default maximum context length of a model, we downsample\nthe images by 50% (area-wise) up to four times\nuntil they fit or fail. MME-RealWorld-Lite and O3Bench are image-based so there is no rasterization\nbut the resize still applies. We use GPT-5-nano as\nthe judge model for answer correctness. The judge\nis calibrated with a manually labeled test set (see\nAppendix E.3).\n\n5.2\nMain Results\n\nDocument VQA.\nTable 2 compares InSight-doc\nwith open and proprietary models on two medium\nand two long document VQA benchmarks. At the\nlow initial resolution (r = 0.25), InSight-doc-8B\n(SFT+RL) achieves an average accuracy of 66.9%,\nsignificantly outperforming its base model, Qwen3VL-8B, by 16.4 points.\nThe gains are consistent across all four benchmarks: 17.2 points on\nDUDE, 18.3 points on MP-DocVQA, 17.1 points\non MMLongBench-Doc, and 12.8 points on LongDocURL. At the medium resolution (r = 0.5),\n\n2For reference, the resolution of a typical document page\nat 50 DPI (r = 0.25) is roughly 425 \u00d7 550 pixels.\n\nTable 2: Comparison with frontier models on medium-to-long document VQA. The models are compared under\ntwo initial resolution settings: low (r = 0.25, DPI 50) and medium (r = 0.5, DPI 100). The inference mode \u201cE2E\u201d\nmeans single-turn QA without tool use, while \u201cAgent\u201d allows multi-turn zoom-in tool use. LLM-as-judge accuracy\nis reported on all benchmarks. Input page limit is set to 40 for all models due to API limit on some closed models.\nThe limit only affects MMLongBench-Doc and LongDocURL. The unlimited results can be found in Appendix F.2.\n\nDUDE\nMP-DVQA\nMMLong.\nLongDoc.\nAverage\n\n0.25\n0.5\n0.25\n0.5\n0.25\n0.5\n0.25\n0.5\n0.25\n0.5",
+        "score": 0.730454683303833
+      },
+      {
+        "chunk_id": "2608.12888v2_c10",
+        "paper_id": "2608.12888v2",
+        "section": "Evaluation Setup",
+        "text": "Table 2 Per-benchmark accuracy (%) across the full compared field on six conversational-memory benchmarks, GPT4o-mini backbone matched across all systems; baseline numbers reused from Hu et al. (2025). Per column, best in bold\nand second-best underlined. Metric is SubEM except LME (GPT-4o LLM-as-judge). Sample sizes: SH-QA/MH-QA\n100, LME 300, EventQA 1,500, FC-SH/FC-MH 400. SH-QA, MH-QA, LME, and EventQA probe precise retrieval;\nFC-SH and FC-MH probe factual-update tracking. Avg is the unweighted macro-average across the six benchmarks.\n\nMain Results: Precise Retrieval and Fact Tracking\n\nTable 2 reports the full compared field on six conversational-memory benchmarks, all under a GPT-4o-mini\nbackbone matched across systems. The six fall into two task types: SH-QA, MH-QA, LME, and EventQA\nprobe precise retrieval\u2014locating a specific fact buried in a long history\u2014while FC-SH and FC-MH probe\nfactual-update tracking, requiring the latest value after an earlier fact has been overwritten. ReFind tops\nthe six-benchmark leaderboard with a mean accuracy of 58.2, ahead of the strongest structured baseline\nHippoRAG 2 (53.2) and single-shot BM25-RAG (48.8), over 2,800 questions spanning both task types.\n\nPer benchmark, ReFind is best on five of the six: SH-QA 83.0, MH-QA 69.0, LME 51.3, FC-SH 62.7, and\nFC-MH 8.8, with HippoRAG 2 the runner-up on four of them. On EventQA, ReFind and BM25-RAG\nare closely matched (74.1 and 74.6), showing that a strong lexical hit can already solve many single-event\nquestions. The larger gains occur where one query is least likely to suffice: relative to BM25-RAG, ReFind\nadds 17 points on SH-QA and 13 on MH-QA, while also lifting both factual-consolidation tasks. This pattern\nconnects the aggregate score to the mechanism: iterative reformulation helps assemble dispersed evidence,\nand chronology- and session-aware controls help distinguish the relevant version of a fact. The small-subset\nexperiments below decompose these gains with matched agent and retrieval controls. All of this holds under\nGPT-4o-mini, showing that effective query formulation does not require a frontier model.\n\nAnalysis and Discussion\n\nBackbone Scaling\n\nWe next test whether the advantage persists with a stronger controller. We run ReFind on the LongMemEval-S\n(50 questions, \u223c115k tokens each) and LongMemEval-M (15 questions, \u223c500k tokens each) subsets used",
+        "score": 0.7146210670471191
+      },
+      {
+        "chunk_id": "2608.00085v1_chunk_003",
+        "paper_id": "2608.00085v1",
+        "section": "Experiments and Evaluation",
+        "text": "We evaluate SelfRefineKG on standard public benchmarks including BIRD-Dev, Spider-Test, GDPR, and CIVIL QA datasets. We compare our approach against baseline dense retrieval and standard chain-of-thought prompting. Our empirical results confirm that SelfRefineKG achieves superior precision and recall on Triplet Precision, outperforming baseline methods by an average of 14.2% in factual accuracy.",
+        "score": 0.7010312080383301
+      },
+      {
+        "chunk_id": "2608.00400v1_chunk_003",
+        "paper_id": "2608.00400v1",
+        "section": "Experiments and Evaluation",
+        "text": "We evaluate SelfRefineKG on standard public benchmarks including BIRD-Dev, Spider-Test, GDPR, and CIVIL QA datasets. We compare our approach against baseline dense retrieval and standard chain-of-thought prompting. Our empirical results confirm that SelfRefineKG achieves superior precision and recall on Triplet Precision, outperforming baseline methods by an average of 14.2% in factual accuracy.",
+        "score": 0.7010312080383301
+      },
+      {
+        "chunk_id": "2608.00040v1_chunk_003",
+        "paper_id": "2608.00040v1",
+        "section": "Experiments and Evaluation",
+        "text": "We evaluate SelfRefineKG on standard public benchmarks including BIRD-Dev, Spider-Test, GDPR, and CIVIL QA datasets. We compare our approach against baseline dense retrieval and standard chain-of-thought prompting. Our empirical results confirm that SelfRefineKG achieves superior precision and recall on Triplet Precision, outperforming baseline methods by an average of 14.2% in factual accuracy.",
+        "score": 0.7010006904602051
+      }
+    ],
+    "latency_sec": 8.7009,
+    "timestamp": "2026-09-26T17:19:50.428Z"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "paper_id": "2608.15940v2",
+  "total_triplets": 7,
+  "triplets": [
+    {
+      "subject": "And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Where Stronger Representation",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Our empirical contribution is a diagnostic and falsification audit: it measures what direct null-coordinate edits can\ncontrol, records their post-freeze fabrication–deletion cost\namong five Whisper-small checkpoint conditions, and identifies where stronger representation, prior-shift, risk-frontier,\nand cross-family hypotheses fail.",
+      "paper_id": "2608.15940v2",
+      "section": "Abstract",
+      "chunk_id": "2608.15940v2_c4"
+    },
+    {
+      "subject": "Patch Pair",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Same Decoder",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Every stock/patch pair uses the same decoder.",
+      "paper_id": "2608.15940v2",
+      "section": "Abstract",
+      "chunk_id": "2608.15940v2_c5"
+    },
+    {
+      "subject": "Separate Long-Form Test",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Gap\nWords But Increases Wer",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The separate long-form test reduces gap\nwords but increases WER.",
+      "paper_id": "2608.15940v2",
+      "section": "Abstract",
+      "chunk_id": "2608.15940v2_c9"
+    },
+    {
+      "subject": "Trained Row",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Clip-Level Lor From 91",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The trained row reduces clip-level LOR from 91.7% to 3.3% (zero on silence, music, events, and urban audio), but deletes\n33.05 reference words/min versus stock’s 1.58.",
+      "paper_id": "2608.15940v2",
+      "section": "Method",
+      "chunk_id": "2608.15940v2_c19"
+    },
+    {
+      "subject": "Nmt Quality",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Real-Source Wmt19",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "AED dose response uses 150 non-speech and 60\nspeech clips; NMT quality uses real-source WMT19.",
+      "paper_id": "2608.15940v2",
+      "section": "Method",
+      "chunk_id": "2608.15940v2_c19"
+    },
+    {
+      "subject": "Interval",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Only The Calibration Pool",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "The interval uses only the calibration pool.",
+      "paper_id": "2608.15940v2",
+      "section": "Method",
+      "chunk_id": "2608.15940v2_c23"
+    },
+    {
+      "subject": "Weaker Systems",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Monotonically Under One Scalar",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Strong CTC systems reach near-zero via anchor fine-tuning; weaker systems reduce monotonically under one scalar.",
+      "paper_id": "2608.15940v2",
+      "section": "Method",
+      "chunk_id": "2608.15940v2_c29"
+    }
+  ]
+}

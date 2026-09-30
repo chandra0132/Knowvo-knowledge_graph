@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.09028v1",
+  "total_triplets": 2,
+  "triplets": [
+    {
+      "subject": "This Learned Baseline",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Zero-Shot Llm",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "This learned baseline outperforms\nthe zero-shot LLM on D1, as it should: it consumes in-domain labels the LLM\ndoes not see.",
+      "paper_id": "2608.09028v1",
+      "section": "Abstract. Institutional policies are written in natural language, but",
+      "chunk_id": "2608.09028v1_c16"
+    },
+    {
+      "subject": "Should Beat A Numpy\nClassifier",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Few Hundred Sentences",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "We had assumed the reverse: a general-purpose\n7B-parameter model exposed to trillions of tokens should beat a NumPy\nclassifier trained on a few hundred sentences.",
+      "paper_id": "2608.09028v1",
+      "section": "Abstract. Institutional policies are written in natural language, but",
+      "chunk_id": "2608.09028v1_c22"
+    }
+  ]
+}

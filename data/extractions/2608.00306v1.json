@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00306v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Claimrag-Law",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Gdpr Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, ClaimRAG-Law evaluates GDPR Benchmark, mitigating known factuality degradation.",
+      "paper_id": "2608.00306v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00306v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Claimrag-Law",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Gdpr Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring ClaimRAG-Law evaluates GDPR Benchmark, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00306v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00306v1_chunk_004"
+    }
+  ]
+}

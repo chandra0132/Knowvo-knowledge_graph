@@ -1,0 +1,123 @@
+{
+  "paper_id": "2608.16071v1",
+  "total_triplets": 9,
+  "triplets": [
+    {
+      "subject": "Cap",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Associated Capability",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Each template 𝑡𝑖,𝑗is represented as a triple\n\n𝑡𝑖,𝑗= (text, cap, slots),\n\nwhere text denotes the natural-language template, cap identifies\nthe associated capability, and slots contains parameter placeholders\nof the form {param}.",
+      "paper_id": "2608.16071v1",
+      "section": "Abstract",
+      "chunk_id": "2608.16071v1_c10"
+    },
+    {
+      "subject": "Sing Priority-Based Sampling\nTo",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Combinatorial Growth",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "For templates containing multiple parameters, candidate values\nare first combined through a Cartesian product and then capped\nat a preset number of combinations using priority-based sampling\nto prevent combinatorial growth.",
+      "paper_id": "2608.16071v1",
+      "section": "Abstract",
+      "chunk_id": "2608.16071v1_c11"
+    },
+    {
+      "subject": "That Structured\nPseudo-Queries",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Semantic Sparsity",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The advantage is especially prominent when only skill\nnames or brief descriptions are used, confirming that structured\npseudo-queries mitigate semantic sparsity.",
+      "paper_id": "2608.16071v1",
+      "section": "Experiments comprise two categories of comparisons. For gen-",
+      "chunk_id": "2608.16071v1_c14"
+    },
+    {
+      "subject": "Triever Fine-Tuned In Our Study",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Downstream Accuracy",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "In the offline\nsetting, the SkillRouter retriever fine-tuned in our study improves\ndownstream accuracy over the no-skill baseline by 3.48 pp for GPT5.4, 8.57 pp for DeepSeek-V4-Flash, and 3.34 pp for Qwen3.6-Plus.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c21"
+    },
+    {
+      "subject": "Retrieval Approaching Oracle",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Interference\nFrom Incorrect Skills",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "On\nstronger models, retrieval approaching Oracle reduces interference\nfrom incorrect skills.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c22"
+    },
+    {
+      "subject": "Skill2Query\nParsed Skg",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Structured Capability",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Skill2Query\nparsed SKG\nUses structured capability, parameter schema, and example information extracted from SKG.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c24"
+    },
+    {
+      "subject": "Skill2Query",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Parsed Skg",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Skill2Query\nuses the parsed SKG, which explicitly organizes capability information, parameter schemas, and usage examples to guide query\ntemplate generation and parameter instantiation.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c24"
+    },
+    {
+      "subject": "Not Imply That Removing The Skg",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Overall Generation Quality",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "This increase does not imply that removing the SKG improves overall generation quality.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c33"
+    },
+    {
+      "subject": "Removing Param-Aware",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Exec-Pass\nFrom 42",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Removing Param-Aware reduces Exec-Pass\nfrom 42.85% to 21.66%, corresponding to a drop of 21.19 percentage\npoints.",
+      "paper_id": "2608.16071v1",
+      "section": "Method",
+      "chunk_id": "2608.16071v1_c33"
+    }
+  ]
+}

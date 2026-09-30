@@ -1,0 +1,110 @@
+{
+  "paper_id": "2608.19875v1",
+  "total_triplets": 8,
+  "triplets": [
+    {
+      "subject": "Structured\nDomain Knowledge To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Unresolved Hypotheses",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This intermediary uses structured\ndomain knowledge to identify unresolved hypotheses, asks targeted questions to obtain the missing context,\nand constructs a clarified prompt before final response generation.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c4"
+    },
+    {
+      "subject": "These Approaches Can",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Factual Errors And Knowledge Staleness",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "These approaches can reduce\nfactual errors and knowledge staleness, but they cannot retrieve an undisclosed allergy, diagnosis, medication, symptom, or personal constraint from an external knowledge source.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c5"
+    },
+    {
+      "subject": "S Ability To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Foods Associated With A Relevant\nHealth Risk",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The NOT OK label was treated as the positive class so\nthat recall and the false-negative rate reflected the system’s ability to identify foods associated with a relevant\nhealth risk.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c10"
+    },
+    {
+      "subject": "Mptoms Were Often Sufficient To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Broadly Relevant\nDiagnostic Family",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This\npattern suggested that the initially visible symptoms were often sufficient to identify a broadly relevant\ndiagnostic family, while the withheld information was more important for distinguishing among diagnoses\nwithin that family.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c11"
+    },
+    {
+      "subject": "Proposed Framework Attempted To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "And Acquire That Information Before Generation",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Rather than requiring the downstream language model to\ninfer an unobserved patient variable, the proposed framework attempted to identify and acquire that information before generation.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c24"
+    },
+    {
+      "subject": "Guage\nModels Were Often Able To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Broadly Relevant Diagnostic Category",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Without clarification, the evaluated language\nmodels were often able to identify a broadly relevant diagnostic category, but their performance decreased\nsubstantially when the task required the correct ICD grouping or exact diagnosis.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c24"
+    },
+    {
+      "subject": "Ainty About Patient Context Can",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Variability In Downstream Generation",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "These results are consistent with the idea that removing uncertainty about patient context can reduce variability in downstream generation.",
+      "paper_id": "2608.19875v1",
+      "section": "Abstract",
+      "chunk_id": "2608.19875v1_c25"
+    },
+    {
+      "subject": "Ct Whose Answer Was Expected To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Uncertainty Most",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "During clarification, the controller compared the unasked facts connected to the active hypotheses and\nselected the fact whose answer was expected to reduce uncertainty most.",
+      "paper_id": "2608.19875v1",
+      "section": "Methods",
+      "chunk_id": "2608.19875v1_c31"
+    }
+  ]
+}

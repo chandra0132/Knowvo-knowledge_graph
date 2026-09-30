@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.11847v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Lookback Consistently",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Best-Of-N Selection",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Across four benchmarks\nand three models, LOOKBACK consistently improves Best-of-N selection over existing baselines with negligible additional overhead.",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c1"
+    },
+    {
+      "subject": "Ensitive Signal Cannot\nReliably",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Them",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "arise from a mismatch between the response and\nthe image, such an image-insensitive signal cannot\nreliably detect them.",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c3"
+    },
+    {
+      "subject": "Motivation\n\nTo",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Reliable Scoring Function For Lvlm\nResponse",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Motivation\n\nTo identify a reliable scoring function for LVLM\nresponse, we begin with output-space confidence,\nas it has shown consistent effectiveness in LLM\nscoring across inference-time selection (Kang et al.,\n2025) and training-time reward (Zhao et al., 2026).",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c4"
+    },
+    {
+      "subject": "Eps The Distribution\nSmooth And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hard Selection",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The first term encourages q to\nconcentrate on positions with high visual lookback\nscore, while the entropy term keeps the distribution\nsmooth and prevents hard selection.",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c11"
+    },
+    {
+      "subject": "Lookback",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Average Score From 65",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Across all setups, LOOKBACK improves the average score from 65.37%\nto 68.62%, achieving a 4.97% relative gain over\nrandom selection.",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c13"
+    },
+    {
+      "subject": "Lookback Consistently",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Best-Of-N Selection",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Across multiple LVLMs and visual understanding benchmarks,\n\nLOOKBACK consistently improves Best-of-N selection over both linguistic and vision side baselines, while requiring no auxiliary verifier, training,\nor extra inference passes.",
+      "paper_id": "2608.11847v1",
+      "section": "Abstract",
+      "chunk_id": "2608.11847v1_c15"
+    }
+  ]
+}

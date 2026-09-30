@@ -1,0 +1,97 @@
+{
+  "ent_and_kgcare": {
+    "canonical_id": "ent_and_kgcare",
+    "canonical_name": "And Kgcare",
+    "entity_type": "Method",
+    "aliases": [
+      "And Kgcare",
+      "And\nKgcare Further"
+    ]
+  },
+  "ent_insightdoc": {
+    "canonical_id": "ent_insightdoc",
+    "canonical_name": "Insightdoc",
+    "entity_type": "Method",
+    "aliases": [
+      "Insightdoc",
+      "Insightdoc-8B"
+    ]
+  },
+  "ent_baseline": {
+    "canonical_id": "ent_baseline",
+    "canonical_name": "Baseline",
+    "entity_type": "Metric",
+    "aliases": [
+      "Strongest Baseline",
+      "Baseline",
+      "Existing Baselines",
+      "Strong Baselines"
+    ]
+  },
+  "ent_hallucination": {
+    "canonical_id": "ent_hallucination",
+    "canonical_name": "Hallucination",
+    "entity_type": "Problem",
+    "aliases": [
+      "Hallucination But Does Not Eliminate It",
+      "Hallucination"
+    ]
+  },
+  "ent_lookback": {
+    "canonical_id": "ent_lookback",
+    "canonical_name": "Lookback",
+    "entity_type": "Method",
+    "aliases": [
+      "Lookback Consistently",
+      "Lookback"
+    ]
+  },
+  "ent_gpt_4": {
+    "canonical_id": "ent_gpt_4",
+    "canonical_name": "Gpt-4",
+    "entity_type": "Metric",
+    "aliases": [
+      "Gpt-4O",
+      "Gpt-4"
+    ]
+  },
+  "ent_removing_cope": {
+    "canonical_id": "ent_removing_cope",
+    "canonical_name": "Removing Cope",
+    "entity_type": "Method",
+    "aliases": [
+      "Removing Cope Mainly",
+      "Removing Cope"
+    ]
+  },
+  "ent_hallucinations": {
+    "canonical_id": "ent_hallucinations",
+    "canonical_name": "Hallucinations",
+    "entity_type": "Problem",
+    "aliases": [
+      "Hallucinations",
+      "Hallucinations Of This Category",
+      "Baseless Hallucinations",
+      "These Generative Hallucinations"
+    ]
+  },
+  "ent_uncertainty": {
+    "canonical_id": "ent_uncertainty",
+    "canonical_name": "Uncertainty",
+    "entity_type": "Problem",
+    "aliases": [
+      "Uncertainty Most",
+      "Uncertainty"
+    ]
+  },
+  "ent_mpea_dpo": {
+    "canonical_id": "ent_mpea_dpo",
+    "canonical_name": "Mpea-Dpo",
+    "entity_type": "Method",
+    "aliases": [
+      "Mpea-Dpo",
+      "Mpea-Dpo Significantly",
+      "Mpea-Dpo Slightly"
+    ]
+  }
+}

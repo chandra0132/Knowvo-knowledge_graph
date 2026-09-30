@@ -1,0 +1,121 @@
+[
+  {
+    "chunk_id": "2608.14210v1_c0",
+    "paper_id": "2608.14210v1",
+    "section": "Abstract",
+    "text": "We present a comprehensive analysis of hallucination behavior in legal RAG systems. Legal RAG systems evaluate hallucination across diverse statutory queries.",
+    "ground_truth_triplets": [
+      {
+        "subject": "Legal RAG Systems",
+        "relation": "EVALUATES",
+        "object": "Hallucination",
+        "evidence_span": "Legal RAG systems evaluate hallucination across diverse statutory queries."
+      },
+      {
+        "subject": "Legal RAG Systems",
+        "relation": "PROPOSES",
+        "object": "Comprehensive Analysis",
+        "evidence_span": "We present a comprehensive analysis of hallucination behavior in legal RAG systems."
+      }
+    ]
+  },
+  {
+    "chunk_id": "2608.15804v1_c1",
+    "paper_id": "2608.15804v1",
+    "section": "Evaluation Metrics",
+    "text": "The official evaluation metrics of RAGTruth is character-level precision, recall, and F1 score. RAGTruth evaluates hallucination detection.",
+    "ground_truth_triplets": [
+      {
+        "subject": "RAGTruth",
+        "relation": "USES",
+        "object": "Precision",
+        "evidence_span": "The official evaluation metrics of RAGTruth is character-level precision, recall, and F1 score."
+      },
+      {
+        "subject": "RAGTruth",
+        "relation": "USES",
+        "object": "Recall",
+        "evidence_span": "The official evaluation metrics of RAGTruth is character-level precision, recall, and F1 score."
+      },
+      {
+        "subject": "RAGTruth",
+        "relation": "USES",
+        "object": "F1 Score",
+        "evidence_span": "The official evaluation metrics of RAGTruth is character-level precision, recall, and F1 score."
+      },
+      {
+        "subject": "RAGTruth",
+        "relation": "EVALUATES",
+        "object": "Hallucination Detection",
+        "evidence_span": "RAGTruth evaluates hallucination detection."
+      }
+    ]
+  },
+  {
+    "chunk_id": "2608.11889v1_c2",
+    "paper_id": "2608.11889v1",
+    "section": "Methods",
+    "text": "DexterSQL improves SQL selection accuracy over the strongest baseline. DexterSQL uses structurally similar training examples to disambiguate columns.",
+    "ground_truth_triplets": [
+      {
+        "subject": "DexterSQL",
+        "relation": "IMPROVES",
+        "object": "SQL Selection Accuracy",
+        "evidence_span": "DexterSQL improves SQL selection accuracy over the strongest baseline."
+      },
+      {
+        "subject": "DexterSQL",
+        "relation": "USES",
+        "object": "Structurally Similar Training Examples",
+        "evidence_span": "DexterSQL uses structurally similar training examples to disambiguate columns."
+      }
+    ]
+  },
+  {
+    "chunk_id": "2608.09779v1_c0",
+    "paper_id": "2608.09779v1",
+    "section": "Introduction",
+    "text": "KGCare proposes a multi-stage clinical reasoning framework. KGCare builds on knowledge graph representations to improve clinical decision making.",
+    "ground_truth_triplets": [
+      {
+        "subject": "KGCare",
+        "relation": "PROPOSES",
+        "object": "Multi-Stage Clinical Reasoning Framework",
+        "evidence_span": "KGCare proposes a multi-stage clinical reasoning framework."
+      },
+      {
+        "subject": "KGCare",
+        "relation": "BUILDS_ON",
+        "object": "Knowledge Graph Representations",
+        "evidence_span": "KGCare builds on knowledge graph representations"
+      },
+      {
+        "subject": "KGCare",
+        "relation": "IMPROVES",
+        "object": "Clinical Decision Making",
+        "evidence_span": "to improve clinical decision making."
+      }
+    ]
+  },
+  {
+    "chunk_id": "2608.12036v2_c1",
+    "paper_id": "2608.12036v2",
+    "section": "Methods",
+    "text": "We formulate belief-state reasoning and use it for dynamic intervention during LLM generation. Belief-state reasoning mitigates hallucination.",
+    "ground_truth_triplets": [
+      {
+        "subject": "Belief-State Reasoning",
+        "relation": "USES",
+        "object": "Dynamic Intervention",
+        "evidence_span": "use it for dynamic intervention during LLM generation."
+      },
+      {
+        "subject": "Belief-State Reasoning",
+        "relation": "OTHER",
+        "candidate_relation": "MITIGATES",
+        "object": "Hallucination",
+        "evidence_span": "Belief-state reasoning mitigates hallucination."
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.08024v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "Om Internal Representations\nAnd",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Them For Hallucination Detection",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "(2025) proposed a method that selects\ninformative neurons from internal representations\nand uses them for hallucination detection.",
+      "paper_id": "2608.08024v1",
+      "section": "Abstract",
+      "chunk_id": "2608.08024v1_c3"
+    },
+    {
+      "subject": "Restricted\nTo The Slt Setup And",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "To The More Difficult\nTbg Regime",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "Overall, these results show that\nthe benefit of prompt embeddings is not restricted\nto the SLT setup and extends to the more difficult\nTBG regime.",
+      "paper_id": "2608.08024v1",
+      "section": "Experiments were conducted on an NVIDIA",
+      "chunk_id": "2608.08024v1_c6"
+    },
+    {
+      "subject": "Ay Suppress Correct\nAnswers And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "System Utility",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "False\nnegatives may lead users to trust unreliable model\noutputs, while false positives may suppress correct\nanswers and reduce system utility.",
+      "paper_id": "2608.08024v1",
+      "section": "Experiments were conducted on an NVIDIA",
+      "chunk_id": "2608.08024v1_c10"
+    }
+  ]
+}

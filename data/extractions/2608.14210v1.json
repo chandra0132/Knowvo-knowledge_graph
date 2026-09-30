@@ -1,0 +1,58 @@
+{
+  "paper_id": "2608.14210v1",
+  "total_triplets": 4,
+  "triplets": [
+    {
+      "subject": "And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinations In Legal Ai Systems",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "These findings highlight the pressing\nneed for reliable methods to detect, evaluate, and mitigate hallucinations in legal AI systems.",
+      "paper_id": "2608.14210v1",
+      "section": "Abstract",
+      "chunk_id": "2608.14210v1_c2"
+    },
+    {
+      "subject": "Lass Of Reference-Based Methods",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Hallucinations Through Claim-Level\nVerification",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "A prominent class of reference-based methods detects hallucinations through claim-level\nverification.",
+      "paper_id": "2608.14210v1",
+      "section": "Abstract",
+      "chunk_id": "2608.14210v1_c5"
+    },
+    {
+      "subject": "Ates Substantially Fewer Claims",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Gpt-Based Systems",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "In contrast, E5+Llama38B generates substantially fewer claims compared to GPT-based systems.",
+      "paper_id": "2608.14210v1",
+      "section": "Abstract",
+      "chunk_id": "2608.14210v1_c9"
+    },
+    {
+      "subject": "Al Quality Alone Is Unlikely To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinations In Legal Rag Systems",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Taken together, these results indicate that improving retrieval quality alone is unlikely to\nmitigate hallucinations in legal RAG systems.",
+      "paper_id": "2608.14210v1",
+      "section": "Abstract",
+      "chunk_id": "2608.14210v1_c16"
+    }
+  ]
+}

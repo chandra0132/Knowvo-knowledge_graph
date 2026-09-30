@@ -1,0 +1,123 @@
+{
+  "paper_id": "2608.07023v1",
+  "total_triplets": 9,
+  "triplets": [
+    {
+      "subject": "Proaches Are Flexible Enough To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Novel Trends",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Conversely,\npurely generative bottom-up approaches are flexible enough to identify novel trends, but they frequently\nlack structural constraints.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c1"
+    },
+    {
+      "subject": "Cross Five Target Languages And",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Hallucinated\nOutputs",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "We enforce structural schema constraints on the underlying model\nto support consistent multilingual representations across five target languages and reduce hallucinated\noutputs.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c2"
+    },
+    {
+      "subject": "Tion Of Fragmented\nConcepts And",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Overall Taxonomic Coherence",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "This enables progressive consolidation of fragmented\nconcepts and improves overall taxonomic coherence.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c2"
+    },
+    {
+      "subject": "For Human-In-The-Loop Review To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Cascading Systemic Errors",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "As a safeguard,\nany node with a rejection rate exceeding 50% is automatically flagged for human-in-the-loop review to\nprevent cascading systemic errors.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c6"
+    },
+    {
+      "subject": "Decisions Creates\nA Cache That",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Redundant Re-Evaluations In Future Epochs",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Logging these decisions creates\na cache that prevents redundant re-evaluations in future Epochs.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c7"
+    },
+    {
+      "subject": "Orphan\nNode Creation",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Suggested Label To Define\n\nA Unique",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Step 3 (Yes):\nCore KG Node\n\nAccepts stable\n\ngeneric node:\n“Project Management”\n\nStep 3 (No): Re-\n\njection Analysis\n\nFlags “gestion de projet\nweb” as a SPECIALIZATION\n\nStep 4: Label Generation\n\nSynthesizes\nsuggested_pref_label:\n“Web Project Management”\n\nStep 5: Orphan\nNode Creation\n\nUses suggested label to define\n\na unique, stable ORPHAN_ID\n\nAgentic Reflection Phase\n\nStep 3 (No): Re-\n\njection Analysis\n\nFlags “gestion de projet\nweb” as a SPECIALIZATION\n\nStep 4: Label Generation\n\nSynthesizes\nsuggested_pref_label:\n“Web Project Management”\n\nStep 5: Orphan\nNode Creation\n\nUses suggested label to define\n\na unique, stable ORPHAN_ID\n\nYes\nNo (Reject)\n\nStep 6: Route to Epoch N + 1\nForced grouping of nested\nspecialization into sub-graph",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c7"
+    },
+    {
+      "subject": "Providing\nA Robust Stress Test",
+      "subject_type": "Method",
+      "relation": "COMPARED_WITH",
+      "candidate_relation": null,
+      "object": "Static Theoretical Ontologies",
+      "object_type": "Method",
+      "confidence": 0.88,
+      "evidence_span": "This dataset reflects chaotic, real-world labor market dynamics—featuring a severe long-tail distribution of highly niche, emerging, or misspelled jargon—providing\na robust stress test compared to static theoretical ontologies.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c8"
+    },
+    {
+      "subject": "Key Objective Is To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Emerging Skill Signals In Real-Time",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Looking ahead, a key objective is to identify emerging skill signals in real-time, enabling downstream analysis of labor market dynamics and\nsupporting workforce planning applications.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c11"
+    },
+    {
+      "subject": "Our Hybrid Approach",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "This",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "While\nrelying on Wikidata as a primary anchor introduces limitations, such as a lag in capturing niche HR\njargon and structural inconsistencies due to its generalist nature, our hybrid approach mitigates this.",
+      "paper_id": "2608.07023v1",
+      "section": "Header/Abstract",
+      "chunk_id": "2608.07023v1_c11"
+    }
+  ]
+}

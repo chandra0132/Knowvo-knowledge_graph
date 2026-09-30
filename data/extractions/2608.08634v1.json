@@ -1,0 +1,45 @@
+{
+  "paper_id": "2608.08634v1",
+  "total_triplets": 3,
+  "triplets": [
+    {
+      "subject": "Is Paper Have Not Been Directly",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Our\nTest Items",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "By\n\nkeeping the source annual reports, questions, and golden answers off the public web until the benchmark is formally released, we retain reasonable confidence that frontier models\nevaluated in this paper have not been directly trained on our\ntest items.",
+      "paper_id": "2608.08634v1",
+      "section": "Abstract",
+      "chunk_id": "2608.08634v1_c1"
+    },
+    {
+      "subject": "We Revised\nAll Six To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Ambiguity",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "The prompts were\noriginally introduced in [Sp¨orer, 2025]; in v1.2 we revised\nall six to reduce ambiguity.",
+      "paper_id": "2608.08634v1",
+      "section": "Abstract",
+      "chunk_id": "2608.08634v1_c5"
+    },
+    {
+      "subject": "Ere Re-Reviewed Specifically\nTo",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "This Ambiguity",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "As part of the v1.2 quality check, 40\nkey financials questions were re-reviewed specifically\nto reduce this ambiguity.",
+      "paper_id": "2608.08634v1",
+      "section": "Abstract",
+      "chunk_id": "2608.08634v1_c7"
+    }
+  ]
+}

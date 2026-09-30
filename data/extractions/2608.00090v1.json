@@ -1,0 +1,32 @@
+{
+  "paper_id": "2608.00090v1",
+  "extracted_count": 2,
+  "triplets": [
+    {
+      "subject": "Faithbench",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Hallucination Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "Specifically, FaithBench evaluates Hallucination Benchmark, mitigating known factuality degradation.",
+      "paper_id": "2608.00090v1",
+      "section": "Introduction",
+      "chunk_id": "2608.00090v1_chunk_001"
+    },
+    {
+      "subject": "By Ensuring Faithbench",
+      "subject_type": "Method",
+      "relation": "EVALUATES",
+      "candidate_relation": null,
+      "object": "Hallucination Benchmark",
+      "object_type": "Dataset",
+      "confidence": 0.88,
+      "evidence_span": "By ensuring FaithBench evaluates Hallucination Benchmark, our framework achieves reliable, verifiable reasoning.",
+      "paper_id": "2608.00090v1",
+      "section": "Conclusion",
+      "chunk_id": "2608.00090v1_chunk_004"
+    }
+  ]
+}

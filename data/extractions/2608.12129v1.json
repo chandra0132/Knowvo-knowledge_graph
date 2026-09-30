@@ -1,0 +1,84 @@
+{
+  "paper_id": "2608.12129v1",
+  "total_triplets": 6,
+  "triplets": [
+    {
+      "subject": "Main Results\n\nRetrieval",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Most Where Reasoning Chains Are Longest",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "5.1\nMain Results\n\nRetrieval improves most where reasoning chains are longest.",
+      "paper_id": "2608.12129v1",
+      "section": "Limitations: Slow、High cost、Difficult incremental updates",
+      "chunk_id": "2608.12129v1_c11"
+    },
+    {
+      "subject": "Oving From 50 To 100 Candidates",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "F1 By 0",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "Moving from 50 to 100 candidates improves F1 by 0.74 points but increases\nper-query token consumption by 40.1% and latency by 10.4%.",
+      "paper_id": "2608.12129v1",
+      "section": "Method",
+      "chunk_id": "2608.12129v1_c15"
+    },
+    {
+      "subject": "Still",
+      "subject_type": "Method",
+      "relation": "IMPROVES",
+      "candidate_relation": null,
+      "object": "Hipporag 2 With Nv-Embed-V2",
+      "object_type": "Metric",
+      "confidence": 0.88,
+      "evidence_span": "SAG with BGE-v1.5 still\noutperforms HippoRAG 2 with NV-Embed-v2.",
+      "paper_id": "2608.12129v1",
+      "section": "Method",
+      "chunk_id": "2608.12129v1_c16"
+    },
+    {
+      "subject": "Sag",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Embeddings For Seeding And\nCoarse Ranking",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "SAG uses embeddings for seeding and\ncoarse ranking, after which exact SQL joins expand the candidate set with connected events without\nre-applying embedding similarity at each step.",
+      "paper_id": "2608.12129v1",
+      "section": "Method",
+      "chunk_id": "2608.12129v1_c16"
+    },
+    {
+      "subject": "Me Dynamic Hyperedge Activation",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Initial Result",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "Both examples retrieve relevant\nevidence, but they differ in how effectively query-time dynamic hyperedge activation extends the\ninitial result.",
+      "paper_id": "2608.12129v1",
+      "section": "Method",
+      "chunk_id": "2608.12129v1_c20"
+    },
+    {
+      "subject": "This",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "MITIGATES",
+      "object": "Indexing Time By 55",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "Relative to\nGraphRAG, LightRAG, and HyperGraphRAG, this reduces indexing time by 55.0–82.4% and indexing\ntokens by 72.6–86.9%.",
+      "paper_id": "2608.12129v1",
+      "section": "Method",
+      "chunk_id": "2608.12129v1_c24"
+    }
+  ]
+}

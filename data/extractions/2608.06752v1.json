@@ -1,0 +1,110 @@
+{
+  "paper_id": "2608.06752v1",
+  "total_triplets": 8,
+  "triplets": [
+    {
+      "subject": "Dkg-Mti",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Unified",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Armed with this deep, structural context, DKG-MTI employs a unified, single-stage multitask inference engine.",
+      "paper_id": "2608.06752v1",
+      "section": "Introduction",
+      "chunk_id": "2608.06752v1_c3"
+    },
+    {
+      "subject": "This Review Allows Us To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Crucial Research Gap\nConcerning The Dynamic",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "This review allows us to identify a crucial research gap\nconcerning the dynamic, structure-aware alignment of subjective and objective knowledge, a gap that our\nDKG-MTI framework is precisely designed to address.",
+      "paper_id": "2608.06752v1",
+      "section": "Related Work",
+      "chunk_id": "2608.06752v1_c5"
+    },
+    {
+      "subject": "First Major Paradigm",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Fine-Tuning",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "The first major paradigm is based on fine-tuning.",
+      "paper_id": "2608.06752v1",
+      "section": "Related Work",
+      "chunk_id": "2608.06752v1_c8"
+    },
+    {
+      "subject": "Ained Language\nModel Is Further",
+      "subject_type": "Model",
+      "relation": "OTHER",
+      "candidate_relation": "FINE_TUNED_ON",
+      "object": "Domain-Specific Corpora",
+      "object_type": "Dataset",
+      "confidence": 0.85,
+      "evidence_span": "In this approach, a general-purpose pre-trained language\nmodel is further trained on domain-specific corpora, which can include textual documents or linearized\nrepresentations of knowledge graph triples.",
+      "paper_id": "2608.06752v1",
+      "section": "Related Work",
+      "chunk_id": "2608.06752v1_c8"
+    },
+    {
+      "subject": "Ective Global Knowledge Base To",
+      "subject_type": "Method",
+      "relation": "OTHER",
+      "candidate_relation": "DETECTION_OF",
+      "object": "Semantic Gaps And Enrich The Reasoning\nContext",
+      "object_type": "Problem",
+      "confidence": 0.85,
+      "evidence_span": "They typically do not address the subsequent, crucial step of aligning this newly formed, subjective graph\nwith a comprehensive, objective global knowledge base to identify semantic gaps and enrich the reasoning\ncontext.",
+      "paper_id": "2608.06752v1",
+      "section": "Related Work",
+      "chunk_id": "2608.06752v1_c9"
+    },
+    {
+      "subject": "Multi-Stage Process That",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Large-Scale",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "The construction of 𝐺𝐻 is a systematic, multi-stage process that leverages large-scale, publicly available\nhotel review datasets and structured hotel metadata.",
+      "paper_id": "2608.06752v1",
+      "section": "Methodology",
+      "chunk_id": "2608.06752v1_c13"
+    },
+    {
+      "subject": "This Stage",
+      "subject_type": "Model",
+      "relation": "BUILDS_ON",
+      "candidate_relation": null,
+      "object": "Single",
+      "object_type": "Architecture",
+      "confidence": 0.88,
+      "evidence_span": "Having meticulously constructed a rich, contextualized\nknowledge base through dynamic graph generation and structure-aware alignment, this stage leverages a\nsingle, powerful Large Language Model, denoted ℒℳ𝒯ℐ, to perform two distinct yet interdependent tasks in\na unified, non-autoregressive manner.",
+      "paper_id": "2608.06752v1",
+      "section": "Methodology",
+      "chunk_id": "2608.06752v1_c17"
+    },
+    {
+      "subject": "Our Primary Dkg-Mti Model",
+      "subject_type": "Method",
+      "relation": "USES",
+      "candidate_relation": null,
+      "object": "Llama-3",
+      "object_type": "Model",
+      "confidence": 0.88,
+      "evidence_span": "Our primary DKG-MTI model\nutilizes Llama-3.1-8B-Instruct (Grattafiori et al., 2024) as its core reasoning engine.",
+      "paper_id": "2608.06752v1",
+      "section": "Experimental Setup",
+      "chunk_id": "2608.06752v1_c21"
+    }
+  ]
+}
