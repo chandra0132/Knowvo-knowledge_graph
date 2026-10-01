@@ -18,12 +18,12 @@ class Neo4jGraphClient:
     """Neo4j Client for knowledge graph ingestion, schema management, and querying."""
 
     def __init__(self, cfg: Optional[GraphConfig] = None):
-        self.cfg = cfg or config
+        self.cfg = cfg or GraphConfig()
         self.driver = GraphDatabase.driver(
             self.cfg.neo4j_uri,
             auth=(self.cfg.neo4j_user, self.cfg.neo4j_password),
         )
-        self.database = self.cfg.neo4j_database
+        self.database = self.cfg.neo4j_database or "neo4j"
 
     def close(self):
         """Close driver connection."""
