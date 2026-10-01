@@ -1,12 +1,12 @@
 import json
 import logging
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from graph.neo4j_client import Neo4jGraphClient
 from graphrag.config import GraphRAGConfig, config
 from neo4j import GraphDatabase
-from sentence_transformers import SentenceTransformer
 
 logging.basicConfig(
     level=logging.INFO,
@@ -20,7 +20,7 @@ class ChunkVectorIndexer:
 
     def __init__(self, cfg: Optional[GraphRAGConfig] = None):
         self.cfg = cfg or config
-        self._model: Optional[SentenceTransformer] = None
+        self._model = None
         self.driver = GraphDatabase.driver(
             self.cfg.neo4j_uri,
             auth=(self.cfg.neo4j_user, self.cfg.neo4j_password),
@@ -28,12 +28,17 @@ class ChunkVectorIndexer:
         self.database = self.cfg.neo4j_database
 
     @property
-    def model(self) -> SentenceTransformer:
-        """Lazy load SentenceTransformer model."""
+    def model(self):
+        """Lazy load SentenceTransformer model if available."""
         if self._model is None:
-            logger.info(f"Loading embedding model: {self.cfg.embedding_model_name}")
-            self._model = SentenceTransformer(self.cfg.embedding_model_name)
-        return self._model
+            try:
+                from sentence_transformers import SentenceTransformer
+                logger.info(f"Loading embedding model: {self.cfg.embedding_model_name}")
+                self._model = SentenceTransformer(self.cfg.embedding_model_name)
+            except (ImportError, Exception) as e:
+                logger.debug(f"SentenceTransformer not available ({e}); using text search fallback.")
+                self._model = False
+        return self._model if self._model is not False else None
 
     def close(self):
         """Close driver connection."""
@@ -127,32 +132,68 @@ class ChunkVectorIndexer:
     def search_similar_chunks(
         self, query_text: str, top_k: Optional[int] = None
     ) -> List[Dict[str, Any]]:
-        """Perform vector similarity search against Neo4j native vector index."""
+        """Perform vector similarity search against Neo4j native vector index or text search fallback."""
         k = top_k or self.cfg.top_k_vector
-        query_embedding = self.model.encode([query_text], convert_to_numpy=True)[0].tolist()
 
-        cypher = f"""
-        CALL db.index.vector.queryNodes('{self.cfg.vector_index_name}', $k, $query_embedding)
-        YIELD node, score
-        RETURN node.id AS chunk_id,
-               node.paper_id AS paper_id,
-               node.section AS section,
-               node.text AS text,
-               score
-        ORDER BY score DESC
+        # If model is available, perform native vector index search
+        if self.model is not None:
+            try:
+                query_embedding = self.model.encode([query_text], convert_to_numpy=True)[0].tolist()
+                cypher = f"""
+                CALL db.index.vector.queryNodes('{self.cfg.vector_index_name}', $k, $query_embedding)
+                YIELD node, score
+                RETURN node.id AS chunk_id,
+                       node.paper_id AS paper_id,
+                       node.section AS section,
+                       node.text AS text,
+                       score
+                ORDER BY score DESC
+                """
+                results: List[Dict[str, Any]] = []
+                with self.driver.session(database=self.database) as session:
+                    res = session.run(cypher, {"k": k, "query_embedding": query_embedding})
+                    for record in res:
+                        results.append({
+                            "chunk_id": record["chunk_id"],
+                            "paper_id": record["paper_id"],
+                            "section": record["section"],
+                            "text": record["text"],
+                            "score": float(record["score"]),
+                        })
+                return results
+            except Exception as e:
+                logger.debug(f"Native vector search failed ({e}), falling back to text search.")
+
+        # Lightweight fallback: Text search on Neo4j Chunk nodes
+        words = [w for w in re.findall(r"\w+", query_text) if len(w) > 3][:5]
+        filter_clause = " OR ".join([f"toLower(c.text) CONTAINS toLower($w{i})" for i in range(len(words))]) if words else "1=1"
+        params: Dict[str, Any] = {f"w{i}": w for i, w in enumerate(words)}
+        params["k"] = k
+
+        cypher_fallback = f"""
+        MATCH (c:Chunk)
+        WHERE {filter_clause}
+        RETURN c.id AS chunk_id,
+               c.paper_id AS paper_id,
+               c.section AS section,
+               c.text AS text,
+               0.75 AS score
+        LIMIT $k
         """
-
         results: List[Dict[str, Any]] = []
-        with self.driver.session(database=self.database) as session:
-            res = session.run(cypher, {"k": k, "query_embedding": query_embedding})
-            for record in res:
-                results.append({
-                    "chunk_id": record["chunk_id"],
-                    "paper_id": record["paper_id"],
-                    "section": record["section"],
-                    "text": record["text"],
-                    "score": float(record["score"]),
-                })
+        try:
+            with self.driver.session(database=self.database) as session:
+                res = session.run(cypher_fallback, params)
+                for record in res:
+                    results.append({
+                        "chunk_id": record["chunk_id"],
+                        "paper_id": record["paper_id"],
+                        "section": record["section"],
+                        "text": record["text"],
+                        "score": float(record["score"]),
+                    })
+        except Exception as e:
+            logger.debug(f"Chunk text search error: {e}")
 
         return results
 

@@ -29,10 +29,9 @@ graphrag_engine: Optional[GraphRAGEngine] = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global graphrag_engine
-    logger.info("Initializing GraphRAGEngine on startup...")
-    graphrag_engine = GraphRAGEngine()
+    logger.info("FastAPI application startup ready.")
     yield
-    logger.info("Shutting down GraphRAGEngine...")
+    logger.info("Shutting down API resources...")
     if graphrag_engine:
         graphrag_engine.close()
 

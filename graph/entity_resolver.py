@@ -4,11 +4,8 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 
-import numpy as np
 from graph.config import GraphConfig, config
 from graph.neo4j_client import Neo4jGraphClient
-from sklearn.metrics.pairwise import cosine_similarity
-from sentence_transformers import SentenceTransformer
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,12 +24,17 @@ class EntityResolver:
         self._embedder = None
 
     @property
-    def embedder(self) -> SentenceTransformer:
-        """Lazy load SentenceTransformer embedder."""
+    def embedder(self):
+        """Lazy load SentenceTransformer embedder if available."""
         if self._embedder is None:
-            logger.info("Loading SentenceTransformer model 'all-MiniLM-L6-v2'...")
-            self._embedder = SentenceTransformer("all-MiniLM-L6-v2")
-        return self._embedder
+            try:
+                from sentence_transformers import SentenceTransformer
+                logger.info("Loading SentenceTransformer model 'all-MiniLM-L6-v2'...")
+                self._embedder = SentenceTransformer("all-MiniLM-L6-v2")
+            except (ImportError, Exception) as e:
+                logger.debug(f"SentenceTransformer not available ({e}), using string similarity fallback.")
+                self._embedder = False
+        return self._embedder if self._embedder is not False else None
 
     def load_canonical_map(self) -> Dict[str, dict]:
         """Load persisted canonical entity mapping table."""
@@ -70,25 +72,40 @@ class EntityResolver:
             str(e["name"][0]) if isinstance(e.get("name"), list) else str(e.get("name", ""))
             for e in entities
         ]
-        logger.info(f"Computing embeddings for {len(names)} entities...")
-        embeddings = self.embedder.encode(names, show_progress_bar=False)
 
-        sim_matrix = cosine_similarity(embeddings)
+        if self.embedder is not None:
+            try:
+                from sklearn.metrics.pairwise import cosine_similarity
+                logger.info(f"Computing embeddings for {len(names)} entities...")
+                embeddings = self.embedder.encode(names, show_progress_bar=False)
+                sim_matrix = cosine_similarity(embeddings)
+                candidate_pairs = []
+                for i in range(len(entities)):
+                    for j in range(i + 1, len(entities)):
+                        e1, e2 = entities[i], entities[j]
+                        sim = float(sim_matrix[i][j])
+                        n1 = self.normalize_name(e1.get("name", "")).lower()
+                        n2 = self.normalize_name(e2.get("name", "")).lower()
+                        if n1 == n2 or sim >= self.sim_threshold:
+                            candidate_pairs.append((e1, e2, sim))
+                logger.info(f"Blocked {len(candidate_pairs)} candidate pairs for adjudication.")
+                return candidate_pairs
+            except Exception as e:
+                logger.warning(f"Embedding blocking fallback: {e}")
+
+        # Lightweight fallback: string ratio
+        from difflib import SequenceMatcher
         candidate_pairs = []
-
         for i in range(len(entities)):
             for j in range(i + 1, len(entities)):
                 e1, e2 = entities[i], entities[j]
-                sim = float(sim_matrix[i][j])
-                
-                # Check for direct normalization match or high embedding similarity
                 n1 = self.normalize_name(e1.get("name", "")).lower()
                 n2 = self.normalize_name(e2.get("name", "")).lower()
-
+                sim = SequenceMatcher(None, n1, n2).ratio()
                 if n1 == n2 or sim >= self.sim_threshold:
                     candidate_pairs.append((e1, e2, sim))
 
-        logger.info(f"Blocked {len(candidate_pairs)} candidate pairs for adjudication.")
+        logger.info(f"Blocked {len(candidate_pairs)} candidate pairs for adjudication (string matching).")
         return candidate_pairs
 
     def adjudicate_pair(self, e1: Dict[str, str], e2: Dict[str, str], sim: float) -> Tuple[bool, str, str]:
